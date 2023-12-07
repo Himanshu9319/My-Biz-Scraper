@@ -1,0 +1,2465 @@
+{
+    "message": "Properties fetched Successfully",
+    "data": {
+        "checkIn": "2023-11-19",
+        "checkOut": "2023-11-20",
+        "searchId": "THUOPMC05R1700282900114_v2",
+        "totalProperties": 285,
+        "properties": [
+            {
+                "id": 44840,
+                "name": "Hotel Raintr 33 Lingampally",
+                "city": "Hyderabad",
+                "locality": "Chanda Nagar",
+                "landmarkDistance": "600.3 km from city center",
+                "checkInTime": "12:00 PM",
+                "checkOutTime": "12:00 PM",
+                "cancellationText": "Free cancellation available",
+                "confirmationText": {
+                    "instantConfirmation": true,
+                    "text": "Instant confirmation"
+                },
+                "starRating": "3 star hotel",
+                "preferenceText": null,
+                "mainImage": "https://pimg.fabhotels.com/propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852872936.jpg",
+                "images": {
+                    "baseUrl": "https://pimg.fabhotels.com/",
+                    "list": [
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799473.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799621.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799471.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799447.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799427.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852872936.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799473.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799621.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799471.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799447.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799427.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852798967.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799011.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852798978.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852798973.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799008.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799373.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852798970.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852798985.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799005.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799010.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799342.jpg",
+                        "propertyimages/972/images/photos-hotel-raintr33-lingampally-hyderabad-Hotels_1661852799410.jpg"
+                    ]
+                },
+                "imageCountText": "23 photos",
+                "primaryPersuasion": null,
+                "secondaryPersuasion": null,
+                "soldOut": false,
+                "amenities": [
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023330.png",
+                        "text": "24X7 Security"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050459.png",
+                        "text": "Free Wifi"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050850.png",
+                        "text": "Lift"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120051348.png",
+                        "text": "Parking"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053612.png",
+                        "text": "AC"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054656.png",
+                        "text": "Restaurant"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054732.png",
+                        "text": "Room Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054930.png",
+                        "text": "Wardrobe or Closet"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055030.png",
+                        "text": "Mineral Water Bottle"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055054.png",
+                        "text": "Daily Housekeeping"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055139.png",
+                        "text": "Free Toiletries"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055221.png",
+                        "text": "LCD TV"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040118.png",
+                        "text": "Clean Towels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040227.png",
+                        "text": "Clean Linen"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207011115.png",
+                        "text": "Toilet Paper"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120042733.png",
+                        "text": "Wake-Up Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120044032.png",
+                        "text": "DTH Channels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023056.png",
+                        "text": "Tile/Marble floor"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023028.png",
+                        "text": "24-Hour Front Desk"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20190213050430.png",
+                        "text": "Banquet Hall"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20190213050542.png",
+                        "text": "Card Payment"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869340917.png",
+                        "text": "Fire NOC"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869776703.png",
+                        "text": "Fire Exit"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869799913.png",
+                        "text": "Fire Alarm"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579870007901.png",
+                        "text": "Newspapers"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1580127966780.png",
+                        "text": "Security Guard"
+                    }
+                ],
+                "rates": null,
+                "reviews": [
+                    {
+                        "type": "OVERALL",
+                        "desc": "All travelers",
+                        "rating": 4.4,
+                        "count": 39
+                    },
+                    {
+                        "type": "CORPORATE",
+                        "desc": "TP clients",
+                        "rating": 0.0,
+                        "count": 0
+                    },
+                    {
+                        "type": "COMPANY",
+                        "desc": "Your colleagues",
+                        "rating": 0.0,
+                        "count": 0
+                    }
+                ],
+                "rate": {
+                    "label": "",
+                    "type": "COMPANY_CONTRACTED",
+                    "price": 2274,
+                    "gstIncluded": false,
+                    "saving": null,
+                    "ratePlanId": "EP",
+                    "roomTypeId": "2",
+                    "provider": "2",
+                    "entitlement": {
+                        "name": "OUTOFPOLICY",
+                        "value": "Out of policy"
+                    },
+                    "otaRate": 2433
+                },
+                "otaRate": 2433,
+                "brandCategory": "Hotel",
+                "gstInvoiceText": "100% GST invoice",
+                "outOfPolicy": {
+                    "budgetText": "Maximum budget allowed per night is ₹850 per employee.",
+                    "advanceDaysText": "Employee must book the hotel 4 days in advance.",
+                    "travelClassText": null
+                },
+                "propertyCategory": "Budget",
+                "brandType": "Hotel",
+                "propertyManagedBy": "OTA",
+                "hotelTypes": [
+                    "Business"
+                ]
+            },
+            {
+                "id": 31898,
+                "name": "SSR Luxury Rooms",
+                "city": "Hyderabad",
+                "locality": "Chanda Nagar",
+                "landmarkDistance": "601.1 km from city center",
+                "checkInTime": "12:00 PM",
+                "checkOutTime": "11:00 AM",
+                "cancellationText": "Free cancellation available",
+                "confirmationText": {
+                    "instantConfirmation": true,
+                    "text": "Instant confirmation"
+                },
+                "starRating": "3 star hotel",
+                "preferenceText": null,
+                "mainImage": "https://pimg.fabhotels.com/propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492801989.jpg",
+                "images": {
+                    "baseUrl": "https://pimg.fabhotels.com/",
+                    "list": [
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492802275.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492802139.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492802150.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492801917.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492801924.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492801877.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492801989.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492802275.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492802139.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492802150.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492801917.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492801924.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492801877.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492802108.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492802106.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492801903.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492802317.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492802338.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492801793.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492802332.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492801944.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492802283.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492802038.jpg",
+                        "propertyimages/991/images/photos-ssr-luxury-rooms-hyderabad-Hotels_1651492802015.jpg"
+                    ]
+                },
+                "imageCountText": "24 photos",
+                "primaryPersuasion": null,
+                "secondaryPersuasion": null,
+                "soldOut": false,
+                "amenities": [
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023330.png",
+                        "text": "24X7 Security"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050459.png",
+                        "text": "Free Wifi"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050850.png",
+                        "text": "Lift"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120051348.png",
+                        "text": "Parking"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053612.png",
+                        "text": "AC"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054656.png",
+                        "text": "Restaurant"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054732.png",
+                        "text": "Room Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054930.png",
+                        "text": "Wardrobe or Closet"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055030.png",
+                        "text": "Mineral Water Bottle"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055054.png",
+                        "text": "Daily Housekeeping"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055139.png",
+                        "text": "Free Toiletries"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055221.png",
+                        "text": "LCD TV"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040118.png",
+                        "text": "Clean Towels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040227.png",
+                        "text": "Clean Linen"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207011115.png",
+                        "text": "Toilet Paper"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120042733.png",
+                        "text": "Wake-Up Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120044032.png",
+                        "text": "DTH Channels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023056.png",
+                        "text": "Tile/Marble floor"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023028.png",
+                        "text": "24-Hour Front Desk"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869340917.png",
+                        "text": "Fire NOC"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869612442.png",
+                        "text": "Fire Extinguishers"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869776703.png",
+                        "text": "Fire Exit"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869799913.png",
+                        "text": "Fire Alarm"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/PowerBackup1602491161933.png",
+                        "text": "Power Backup"
+                    }
+                ],
+                "rates": null,
+                "reviews": [
+                    {
+                        "type": "OVERALL",
+                        "desc": "All travelers",
+                        "rating": 3.5,
+                        "count": 699
+                    },
+                    {
+                        "type": "CORPORATE",
+                        "desc": "TP clients",
+                        "rating": 0.0,
+                        "count": 0
+                    },
+                    {
+                        "type": "COMPANY",
+                        "desc": "Your colleagues",
+                        "rating": 0.0,
+                        "count": 0
+                    }
+                ],
+                "rate": {
+                    "label": "",
+                    "type": "COMPANY_CONTRACTED",
+                    "price": 1022,
+                    "gstIncluded": false,
+                    "saving": null,
+                    "ratePlanId": "EP",
+                    "roomTypeId": "1",
+                    "provider": "2",
+                    "entitlement": {
+                        "name": "OUTOFPOLICY",
+                        "value": "Out of policy"
+                    },
+                    "otaRate": 1073
+                },
+                "otaRate": 1073,
+                "brandCategory": "Hotel",
+                "gstInvoiceText": "100% GST invoice",
+                "outOfPolicy": {
+                    "budgetText": "Maximum budget allowed per night is ₹850 per employee.",
+                    "advanceDaysText": "Employee must book the hotel 4 days in advance.",
+                    "travelClassText": null
+                },
+                "propertyCategory": "Budget",
+                "brandType": "Hotel",
+                "propertyManagedBy": "OTA",
+                "hotelTypes": [
+                    "Business"
+                ]
+            },
+            {
+                "id": 50640,
+                "name": "Hotel Broholic Suites I",
+                "city": "Hyderabad",
+                "locality": "Gopanpally",
+                "landmarkDistance": "602.8 km from city center",
+                "checkInTime": "12:00 PM",
+                "checkOutTime": "11:00 AM",
+                "cancellationText": "Free cancellation available",
+                "confirmationText": {
+                    "instantConfirmation": true,
+                    "text": "Instant confirmation"
+                },
+                "starRating": "2 star hotel",
+                "preferenceText": "Recommended",
+                "mainImage": "https://pimg.fabhotels.com/propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703416605.jpg",
+                "images": {
+                    "baseUrl": "https://pimg.fabhotels.com/",
+                    "list": [
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703764833.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703763643.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703782350.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703765845.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703765651.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703814193.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703816802.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703816983.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703815891.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703816965.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703862791.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703865673.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703864800.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703860885.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703864045.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703862952.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703416605.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703764833.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703763643.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703782350.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703765845.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703765651.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703814193.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703816802.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703816983.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703815891.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703816965.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703862791.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703865673.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703864800.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703860885.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703864045.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703862952.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703657425.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703657273.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703657010.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703936918.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703937026.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703937240.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703937124.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703936319.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703937490.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703936938.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703937102.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703935914.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703937271.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703937339.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685704045576.jpg",
+                        "propertyimages/790/images/photos-fabexpress-broholic-suites-ii-hyderabad-Hotels_1685703937309.jpg"
+                    ]
+                },
+                "imageCountText": "49 photos",
+                "primaryPersuasion": null,
+                "secondaryPersuasion": null,
+                "soldOut": false,
+                "amenities": [
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023330.png",
+                        "text": "24X7 Security"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050459.png",
+                        "text": "Free Wifi"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050850.png",
+                        "text": "Lift"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053612.png",
+                        "text": "AC"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053934.png",
+                        "text": "Conference Room"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054732.png",
+                        "text": "Room Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054930.png",
+                        "text": "Wardrobe or Closet"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055030.png",
+                        "text": "Mineral Water Bottle"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055054.png",
+                        "text": "Daily Housekeeping"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055139.png",
+                        "text": "Free Toiletries"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055221.png",
+                        "text": "LCD TV"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040118.png",
+                        "text": "Clean Towels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040227.png",
+                        "text": "Clean Linen"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207011115.png",
+                        "text": "Toilet Paper"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120042733.png",
+                        "text": "Wake-Up Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120044032.png",
+                        "text": "DTH Channels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023056.png",
+                        "text": "Tile/Marble floor"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023028.png",
+                        "text": "24-Hour Front Desk"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20190213050542.png",
+                        "text": "Card Payment"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869340917.png",
+                        "text": "Fire NOC"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869612442.png",
+                        "text": "Fire Extinguishers"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869776703.png",
+                        "text": "Fire Exit"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869799913.png",
+                        "text": "Fire Alarm"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869827355.png",
+                        "text": "Fire Hose Reels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869856887.png",
+                        "text": "FHRAI Certification"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869884487.png",
+                        "text": "FSSAI Licence"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869984407.png",
+                        "text": "Garden"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1580129225780.png",
+                        "text": "Electric Kettle (On Request)"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/PowerBackup1602491161933.png",
+                        "text": "Power Backup"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/breaks(1)1649060944183.png",
+                        "text": "Breakfast (Ala Carte)"
+                    }
+                ],
+                "rates": null,
+                "reviews": [
+                    {
+                        "type": "OVERALL",
+                        "desc": "All travelers",
+                        "rating": 4.5,
+                        "count": 225
+                    },
+                    {
+                        "type": "CORPORATE",
+                        "desc": "TP clients",
+                        "rating": 0.0,
+                        "count": 0
+                    },
+                    {
+                        "type": "COMPANY",
+                        "desc": "Your colleagues",
+                        "rating": 0.0,
+                        "count": 0
+                    }
+                ],
+                "rate": {
+                    "label": "",
+                    "type": "COMPANY_CONTRACTED",
+                    "price": 1360,
+                    "gstIncluded": false,
+                    "saving": null,
+                    "ratePlanId": "EP",
+                    "roomTypeId": "1",
+                    "provider": "1",
+                    "entitlement": {
+                        "name": "OUTOFPOLICY",
+                        "value": "Out of policy"
+                    },
+                    "otaRate": 1455
+                },
+                "otaRate": 1455,
+                "brandCategory": "Hotel",
+                "gstInvoiceText": "100% GST invoice",
+                "outOfPolicy": {
+                    "budgetText": "Maximum budget allowed per night is ₹850 per employee.",
+                    "advanceDaysText": "Employee must book the hotel 4 days in advance.",
+                    "travelClassText": null
+                },
+                "propertyCategory": "Budget",
+                "brandType": "FabHotel",
+                "propertyManagedBy": "Managed",
+                "hotelTypes": [
+                    "Business"
+                ]
+            },
+            {
+                "id": 54179,
+                "name": "Hotel Ravila Grand",
+                "city": "Hyderabad",
+                "locality": "Miyapur",
+                "landmarkDistance": "603.1 km from city center",
+                "checkInTime": "12:00 PM",
+                "checkOutTime": "11:00 AM",
+                "cancellationText": "Free cancellation available",
+                "confirmationText": {
+                    "instantConfirmation": true,
+                    "text": "Instant confirmation"
+                },
+                "starRating": "2 star hotel",
+                "preferenceText": null,
+                "mainImage": "https://pimg.fabhotels.com/propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405086552.jpg",
+                "images": {
+                    "baseUrl": "https://pimg.fabhotels.com/",
+                    "list": [
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405239112.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405239121.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405238813.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405238938.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405239406.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405238152.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405239291.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405239083.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405239258.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405239218.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405238904.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405086552.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405239112.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405239121.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405238813.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405238938.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405239406.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405238152.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405239291.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405239083.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405239258.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405239218.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405238904.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405204527.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405396536.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405396530.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405396529.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405396541.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405429839.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405373032.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405373030.jpg",
+                        "propertyimages/341/images/photos-fabhotel-ravila-grand-hyderabad-Hotels_1698405429860.jpg"
+                    ]
+                },
+                "imageCountText": "32 photos",
+                "primaryPersuasion": null,
+                "secondaryPersuasion": null,
+                "soldOut": false,
+                "amenities": [
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023330.png",
+                        "text": "24X7 Security"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050459.png",
+                        "text": "Free Wifi"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050850.png",
+                        "text": "Lift"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120051348.png",
+                        "text": "Parking"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053454.png",
+                        "text": "Gym"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053612.png",
+                        "text": "AC"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053735.png",
+                        "text": "Baggage Storage"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053904.png",
+                        "text": "Coffee Maker"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053934.png",
+                        "text": "Conference Room"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054732.png",
+                        "text": "Room Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054930.png",
+                        "text": "Wardrobe or Closet"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055030.png",
+                        "text": "Mineral Water Bottle"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055054.png",
+                        "text": "Daily Housekeeping"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055139.png",
+                        "text": "Free Toiletries"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055221.png",
+                        "text": "LCD TV"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040118.png",
+                        "text": "Clean Towels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040227.png",
+                        "text": "Clean Linen"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207011115.png",
+                        "text": "Toilet Paper"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120042733.png",
+                        "text": "Wake-Up Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120044032.png",
+                        "text": "DTH Channels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023056.png",
+                        "text": "Tile/Marble floor"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023028.png",
+                        "text": "24-Hour Front Desk"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20190213050542.png",
+                        "text": "Card Payment"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869340917.png",
+                        "text": "Fire NOC"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869612442.png",
+                        "text": "Fire Extinguishers"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869776703.png",
+                        "text": "Fire Exit"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869799913.png",
+                        "text": "Fire Alarm"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869827355.png",
+                        "text": "Fire Hose Reels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869856887.png",
+                        "text": "FHRAI Certification"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869884487.png",
+                        "text": "FSSAI Licence"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869949833.png",
+                        "text": "Wheelchair Accessible"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869984407.png",
+                        "text": "Garden"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579870007901.png",
+                        "text": "Newspapers"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1580129225780.png",
+                        "text": "Electric Kettle (On Request)"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/PowerBackup1602491161933.png",
+                        "text": "Power Backup"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/breaks(1)1649060944183.png",
+                        "text": "Breakfast (Ala Carte)"
+                    }
+                ],
+                "rates": null,
+                "reviews": [
+                    {
+                        "type": "OVERALL",
+                        "desc": "All travelers",
+                        "rating": 4.5,
+                        "count": 180
+                    },
+                    {
+                        "type": "CORPORATE",
+                        "desc": "TP clients",
+                        "rating": 0.0,
+                        "count": 0
+                    },
+                    {
+                        "type": "COMPANY",
+                        "desc": "Your colleagues",
+                        "rating": 0.0,
+                        "count": 0
+                    }
+                ],
+                "rate": {
+                    "label": "",
+                    "type": "COMPANY_CONTRACTED",
+                    "price": 2566,
+                    "gstIncluded": false,
+                    "saving": null,
+                    "ratePlanId": "EP",
+                    "roomTypeId": "1",
+                    "provider": "1",
+                    "entitlement": {
+                        "name": "OUTOFPOLICY",
+                        "value": "Out of policy"
+                    },
+                    "otaRate": 2745
+                },
+                "otaRate": 2745,
+                "brandCategory": "Hotel",
+                "gstInvoiceText": "100% GST invoice",
+                "outOfPolicy": {
+                    "budgetText": "Maximum budget allowed per night is ₹850 per employee.",
+                    "advanceDaysText": "Employee must book the hotel 4 days in advance.",
+                    "travelClassText": null
+                },
+                "propertyCategory": "Budget",
+                "brandType": "FabHotel Prime",
+                "propertyManagedBy": "Managed",
+                "hotelTypes": [
+                    "Business"
+                ]
+            },
+            {
+                "id": 20568,
+                "name": "The Art Boutique Hotel",
+                "city": "Hyderabad",
+                "locality": "Gowlidobby",
+                "landmarkDistance": "603.4 km from city center",
+                "checkInTime": "1:00 PM",
+                "checkOutTime": "11:00 AM",
+                "cancellationText": "Free cancellation available",
+                "confirmationText": {
+                    "instantConfirmation": true,
+                    "text": "Instant confirmation"
+                },
+                "starRating": "3 star hotel",
+                "preferenceText": null,
+                "mainImage": "https://pimg.fabhotels.com/propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644385657122.jpg",
+                "images": {
+                    "baseUrl": "https://pimg.fabhotels.com/",
+                    "list": [
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644386384685.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644386360275.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744127.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744123.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744133.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744140.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744222.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744224.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744139.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744096.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644385657122.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644386384685.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644386360275.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744127.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744123.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744133.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744140.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744222.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744224.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744139.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744096.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644386383475.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644386383915.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644386360265.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644386387026.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644386387006.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644386453048.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644386386401.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644386386378.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644386360562.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1654778744141.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644386452937.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644386387031.jpg",
+                        "propertyimages/628/images/photos-hotel-art-boutique-hyderabad-Hotels_1644386387032.jpg"
+                    ]
+                },
+                "imageCountText": "34 photos",
+                "primaryPersuasion": null,
+                "secondaryPersuasion": null,
+                "soldOut": false,
+                "amenities": [
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023330.png",
+                        "text": "24X7 Security"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050459.png",
+                        "text": "Free Wifi"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050850.png",
+                        "text": "Lift"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120051348.png",
+                        "text": "Parking"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053612.png",
+                        "text": "AC"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053735.png",
+                        "text": "Baggage Storage"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054656.png",
+                        "text": "Restaurant"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054732.png",
+                        "text": "Room Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054930.png",
+                        "text": "Wardrobe or Closet"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055030.png",
+                        "text": "Mineral Water Bottle"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055054.png",
+                        "text": "Daily Housekeeping"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055139.png",
+                        "text": "Free Toiletries"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055221.png",
+                        "text": "LCD TV"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040118.png",
+                        "text": "Clean Towels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040227.png",
+                        "text": "Clean Linen"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207011115.png",
+                        "text": "Toilet Paper"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120042733.png",
+                        "text": "Wake-Up Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120044032.png",
+                        "text": "DTH Channels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023056.png",
+                        "text": "Tile/Marble floor"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023028.png",
+                        "text": "24-Hour Front Desk"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869612442.png",
+                        "text": "Fire Extinguishers"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869776703.png",
+                        "text": "Fire Exit"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869799913.png",
+                        "text": "Fire Alarm"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579870007901.png",
+                        "text": "Newspapers"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/PowerBackup1602491161933.png",
+                        "text": "Power Backup"
+                    }
+                ],
+                "rates": null,
+                "reviews": [
+                    {
+                        "type": "OVERALL",
+                        "desc": "All travelers",
+                        "rating": 4.3,
+                        "count": 453
+                    },
+                    {
+                        "type": "CORPORATE",
+                        "desc": "TP clients",
+                        "rating": 3.5,
+                        "count": 4
+                    },
+                    {
+                        "type": "COMPANY",
+                        "desc": "Your colleagues",
+                        "rating": 0.0,
+                        "count": 0
+                    }
+                ],
+                "rate": {
+                    "label": "",
+                    "type": "COMPANY_CONTRACTED",
+                    "price": 2365,
+                    "gstIncluded": false,
+                    "saving": null,
+                    "ratePlanId": "EP",
+                    "roomTypeId": "1",
+                    "provider": "2",
+                    "entitlement": {
+                        "name": "OUTOFPOLICY",
+                        "value": "Out of policy"
+                    },
+                    "otaRate": 2483
+                },
+                "otaRate": 2483,
+                "brandCategory": "Hotel",
+                "gstInvoiceText": "100% GST invoice",
+                "outOfPolicy": {
+                    "budgetText": "Maximum budget allowed per night is ₹850 per employee.",
+                    "advanceDaysText": "Employee must book the hotel 4 days in advance.",
+                    "travelClassText": null
+                },
+                "propertyCategory": "Budget",
+                "brandType": "Hotel",
+                "propertyManagedBy": "OTA",
+                "hotelTypes": [
+                    "Business"
+                ]
+            },
+            {
+                "id": 14639,
+                "name": "The Conclave",
+                "city": "Hyderabad",
+                "locality": "Gachibowli",
+                "landmarkDistance": "603.5 km from city center",
+                "checkInTime": "12:00 PM",
+                "checkOutTime": "11:00 AM",
+                "cancellationText": "Free cancellation available",
+                "confirmationText": {
+                    "instantConfirmation": true,
+                    "text": "Instant confirmation"
+                },
+                "starRating": "3 star hotel",
+                "preferenceText": null,
+                "mainImage": "https://pimg.fabhotels.com/propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1648723691058.jpg",
+                "images": {
+                    "baseUrl": "https://pimg.fabhotels.com/",
+                    "list": [
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1654767887416.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815315391.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1654767887407.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815315515.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815315507.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815315261.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815315158.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1648723691058.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1654767887416.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815315391.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1654767887407.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815315515.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815315507.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815315261.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815315158.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815916456.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646816289340.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646816343348.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646816252205.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815916498.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815916478.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815916499.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815916487.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815916473.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646816343404.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646816251897.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646816277599.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815872070.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815872130.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815872089.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815872048.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646815872050.jpg",
+                        "propertyimages/681/images/photos-hotel-the-conclave-tpext-hyderabad-Hotels_1646816289197.jpg"
+                    ]
+                },
+                "imageCountText": "33 photos",
+                "primaryPersuasion": null,
+                "secondaryPersuasion": null,
+                "soldOut": false,
+                "amenities": [
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023330.png",
+                        "text": "24X7 Security"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050459.png",
+                        "text": "Free Wifi"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050850.png",
+                        "text": "Lift"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120051348.png",
+                        "text": "Parking"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053612.png",
+                        "text": "AC"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054656.png",
+                        "text": "Restaurant"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054732.png",
+                        "text": "Room Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054930.png",
+                        "text": "Wardrobe or Closet"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055030.png",
+                        "text": "Mineral Water Bottle"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055054.png",
+                        "text": "Daily Housekeeping"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055139.png",
+                        "text": "Free Toiletries"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055221.png",
+                        "text": "LCD TV"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040118.png",
+                        "text": "Clean Towels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040227.png",
+                        "text": "Clean Linen"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207011115.png",
+                        "text": "Toilet Paper"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120042733.png",
+                        "text": "Wake-Up Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120044032.png",
+                        "text": "DTH Channels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023056.png",
+                        "text": "Tile/Marble floor"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023028.png",
+                        "text": "24-Hour Front Desk"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20190213050542.png",
+                        "text": "Card Payment"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869612442.png",
+                        "text": "Fire Extinguishers"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869776703.png",
+                        "text": "Fire Exit"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869799913.png",
+                        "text": "Fire Alarm"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579870007901.png",
+                        "text": "Newspapers"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1580127966780.png",
+                        "text": "Security Guard"
+                    }
+                ],
+                "rates": null,
+                "reviews": [
+                    {
+                        "type": "OVERALL",
+                        "desc": "All travelers",
+                        "rating": 3.5,
+                        "count": 1094
+                    },
+                    {
+                        "type": "CORPORATE",
+                        "desc": "TP clients",
+                        "rating": 3.3,
+                        "count": 8
+                    },
+                    {
+                        "type": "COMPANY",
+                        "desc": "Your colleagues",
+                        "rating": 0.0,
+                        "count": 0
+                    }
+                ],
+                "rate": {
+                    "label": "",
+                    "type": "COMPANY_CONTRACTED",
+                    "price": 2232,
+                    "gstIncluded": false,
+                    "saving": null,
+                    "ratePlanId": "EP",
+                    "roomTypeId": "1",
+                    "provider": "2",
+                    "entitlement": {
+                        "name": "OUTOFPOLICY",
+                        "value": "Out of policy"
+                    },
+                    "otaRate": 2343
+                },
+                "otaRate": 2343,
+                "brandCategory": "Hotel",
+                "gstInvoiceText": "100% GST invoice",
+                "outOfPolicy": {
+                    "budgetText": "Maximum budget allowed per night is ₹850 per employee.",
+                    "advanceDaysText": "Employee must book the hotel 4 days in advance.",
+                    "travelClassText": null
+                },
+                "propertyCategory": "Budget",
+                "brandType": "Hotel",
+                "propertyManagedBy": "OTA",
+                "hotelTypes": [
+                    "Business"
+                ]
+            },
+            {
+                "id": 5087,
+                "name": "Lemon Tree Hotel Gachibowli",
+                "city": "Hyderabad",
+                "locality": "Nanakramguda",
+                "landmarkDistance": "604.4 km from city center",
+                "checkInTime": "2:00 PM",
+                "checkOutTime": "12:00 PM",
+                "cancellationText": "Free cancellation available",
+                "confirmationText": {
+                    "instantConfirmation": true,
+                    "text": "Instant confirmation"
+                },
+                "starRating": "4 star hotel",
+                "preferenceText": "Recommended",
+                "mainImage": "https://pimg.fabhotels.com/propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1654855712769.jpg",
+                "images": {
+                    "baseUrl": "https://pimg.fabhotels.com/",
+                    "list": [
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1637913724269.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1650545467533.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1640253427938.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1637913739823.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1650545467901.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1650545467530.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1650545467698.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1650545467589.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1650545467621.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1654855712769.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1637913724269.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1650545467533.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1640253427938.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1637913739823.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1650545467901.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1650545467530.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1650545467698.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1650545467589.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1650545467621.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1640253424546.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1637913740018.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1640253427184.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1637913740164.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1640253426807.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1637913724653.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1640253430961.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1637914261326.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1640253431291.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1650545762081.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1640253425432.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1637913740231.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1637913740031.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1640253429189.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1640253425953.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1650545468153.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1640253424668.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1640253428603.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1637914286454.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1640253426809.jpg",
+                        "propertyimages/102/images/photos-hotel-hotel-lemontree--gachibowli-hyderabad-Hotels_1650545468130.jpg"
+                    ]
+                },
+                "imageCountText": "40 photos",
+                "primaryPersuasion": null,
+                "secondaryPersuasion": null,
+                "soldOut": false,
+                "amenities": [
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023330.png",
+                        "text": "24X7 Security"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050459.png",
+                        "text": "Free Wifi"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050850.png",
+                        "text": "Lift"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120051348.png",
+                        "text": "Parking"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053454.png",
+                        "text": "Gym"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053612.png",
+                        "text": "AC"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053654.png",
+                        "text": "Swimming Pool"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053735.png",
+                        "text": "Baggage Storage"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053904.png",
+                        "text": "Coffee Maker"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053934.png",
+                        "text": "Conference Room"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054132.png",
+                        "text": "Hair Dryer"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054305.png",
+                        "text": "Heater"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054409.png",
+                        "text": "Keyless Entry"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054445.png",
+                        "text": "Laundry Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054603.png",
+                        "text": "Mini Fridge"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054656.png",
+                        "text": "Restaurant"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054732.png",
+                        "text": "Room Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054800.png",
+                        "text": "SPA"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054830.png",
+                        "text": "Terrace"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054930.png",
+                        "text": "Wardrobe or Closet"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055030.png",
+                        "text": "Mineral Water Bottle"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055054.png",
+                        "text": "Daily Housekeeping"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055139.png",
+                        "text": "Free Toiletries"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055221.png",
+                        "text": "LCD TV"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040118.png",
+                        "text": "Clean Towels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040227.png",
+                        "text": "Clean Linen"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207011115.png",
+                        "text": "Toilet Paper"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120042733.png",
+                        "text": "Wake-Up Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120044032.png",
+                        "text": "DTH Channels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023056.png",
+                        "text": "Tile/Marble floor"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023028.png",
+                        "text": "24-Hour Front Desk"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20190213050430.png",
+                        "text": "Banquet Hall"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20190213050542.png",
+                        "text": "Card Payment"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869612442.png",
+                        "text": "Fire Extinguishers"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869704915.png",
+                        "text": "Smoke Detectors"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869776703.png",
+                        "text": "Fire Exit"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869799913.png",
+                        "text": "Fire Alarm"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869827355.png",
+                        "text": "Fire Hose Reels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869949833.png",
+                        "text": "Wheelchair Accessible"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579870007901.png",
+                        "text": "Newspapers"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1580104903014.png",
+                        "text": "Bar"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1580127966780.png",
+                        "text": "Security Guard"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/PowerBackup1602491161933.png",
+                        "text": "Power Backup"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/walkingTrackIcon1618309166483.png",
+                        "text": "Walking Track"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/AirportPicupdrop(1)1618309339894.png",
+                        "text": "Airport Pickup & Drop (Chargeable)"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/KidsPlay(1)1618309477630.png",
+                        "text": "Kids Play Zone"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/Newsicon1618310506489.png",
+                        "text": "Newspapers (In Lobby)"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/1661948(1)1634126535927.png",
+                        "text": "No Smoking"
+                    }
+                ],
+                "rates": null,
+                "reviews": [
+                    {
+                        "type": "OVERALL",
+                        "desc": "All travelers",
+                        "rating": 4.2,
+                        "count": 3736
+                    },
+                    {
+                        "type": "CORPORATE",
+                        "desc": "TP clients",
+                        "rating": 4.2,
+                        "count": 15
+                    },
+                    {
+                        "type": "COMPANY",
+                        "desc": "Your colleagues",
+                        "rating": 0.0,
+                        "count": 0
+                    }
+                ],
+                "rate": {
+                    "label": "",
+                    "type": "COMPANY_CONTRACTED",
+                    "price": 5162,
+                    "gstIncluded": false,
+                    "saving": null,
+                    "ratePlanId": "EP",
+                    "roomTypeId": "2",
+                    "provider": "2",
+                    "entitlement": {
+                        "name": "OUTOFPOLICY",
+                        "value": "Out of policy"
+                    },
+                    "otaRate": 5420
+                },
+                "otaRate": 5420,
+                "brandCategory": "Hotel",
+                "gstInvoiceText": "100% GST invoice",
+                "outOfPolicy": {
+                    "budgetText": "Maximum budget allowed per night is ₹850 per employee.",
+                    "advanceDaysText": "Employee must book the hotel 4 days in advance.",
+                    "travelClassText": null
+                },
+                "propertyCategory": "Premium",
+                "brandType": "Hotel",
+                "propertyManagedBy": "OTA",
+                "hotelTypes": [
+                    "Business"
+                ]
+            },
+            {
+                "id": 26573,
+                "name": "Sri Navya Grand",
+                "city": "Hyderabad",
+                "locality": "Miyapur",
+                "landmarkDistance": "604.6 km from city center",
+                "checkInTime": "12:00 PM",
+                "checkOutTime": "11:00 AM",
+                "cancellationText": "Free cancellation available",
+                "confirmationText": {
+                    "instantConfirmation": true,
+                    "text": "Instant confirmation"
+                },
+                "starRating": "3 star hotel",
+                "preferenceText": null,
+                "mainImage": "https://pimg.fabhotels.com/propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158058066.jpg",
+                "images": {
+                    "baseUrl": "https://pimg.fabhotels.com/",
+                    "list": [
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099704.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099403.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099629.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099782.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099862.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099787.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158098744.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099841.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099610.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158058066.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099704.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099403.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099629.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099782.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099862.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099787.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158098744.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099841.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099610.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099483.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099809.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099468.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099725.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099632.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099676.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099426.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099581.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099783.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099609.jpg",
+                        "propertyimages/651/images/photos-hotel-sri-navya-grand-tpext-hyderabad-Hotels_1649158099749.jpg"
+                    ]
+                },
+                "imageCountText": "30 photos",
+                "primaryPersuasion": null,
+                "secondaryPersuasion": null,
+                "soldOut": false,
+                "amenities": [
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023330.png",
+                        "text": "24X7 Security"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050459.png",
+                        "text": "Free Wifi"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050850.png",
+                        "text": "Lift"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120051348.png",
+                        "text": "Parking"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053612.png",
+                        "text": "AC"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053735.png",
+                        "text": "Baggage Storage"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054409.png",
+                        "text": "Keyless Entry"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054445.png",
+                        "text": "Laundry Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054656.png",
+                        "text": "Restaurant"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054732.png",
+                        "text": "Room Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054930.png",
+                        "text": "Wardrobe or Closet"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055030.png",
+                        "text": "Mineral Water Bottle"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055054.png",
+                        "text": "Daily Housekeeping"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055139.png",
+                        "text": "Free Toiletries"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055221.png",
+                        "text": "LCD TV"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040118.png",
+                        "text": "Clean Towels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040227.png",
+                        "text": "Clean Linen"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207011115.png",
+                        "text": "Toilet Paper"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120042733.png",
+                        "text": "Wake-Up Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120044032.png",
+                        "text": "DTH Channels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023056.png",
+                        "text": "Tile/Marble floor"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023028.png",
+                        "text": "24-Hour Front Desk"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20190213050542.png",
+                        "text": "Card Payment"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869612442.png",
+                        "text": "Fire Extinguishers"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869799913.png",
+                        "text": "Fire Alarm"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579870007901.png",
+                        "text": "Newspapers"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1580127966780.png",
+                        "text": "Security Guard"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/PowerBackup1602491161933.png",
+                        "text": "Power Backup"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/AirportPicupdrop(1)1618309339894.png",
+                        "text": "Airport Pickup & Drop (Chargeable)"
+                    }
+                ],
+                "rates": null,
+                "reviews": [
+                    {
+                        "type": "OVERALL",
+                        "desc": "All travelers",
+                        "rating": 3.5,
+                        "count": 523
+                    },
+                    {
+                        "type": "CORPORATE",
+                        "desc": "TP clients",
+                        "rating": 0.0,
+                        "count": 0
+                    },
+                    {
+                        "type": "COMPANY",
+                        "desc": "Your colleagues",
+                        "rating": 0.0,
+                        "count": 0
+                    }
+                ],
+                "rate": {
+                    "label": "",
+                    "type": "COMPANY_CONTRACTED",
+                    "price": 817,
+                    "gstIncluded": false,
+                    "saving": null,
+                    "ratePlanId": "EP",
+                    "roomTypeId": "1",
+                    "provider": "2",
+                    "entitlement": {
+                        "name": "OUTOFPOLICY",
+                        "value": "Out of policy"
+                    },
+                    "otaRate": 857
+                },
+                "otaRate": 857,
+                "brandCategory": "Hotel",
+                "gstInvoiceText": "100% GST invoice",
+                "outOfPolicy": {
+                    "budgetText": null,
+                    "advanceDaysText": "Employee must book the hotel 4 days in advance.",
+                    "travelClassText": null
+                },
+                "propertyCategory": "Budget",
+                "brandType": "Hotel",
+                "propertyManagedBy": "OTA",
+                "hotelTypes": [
+                    "Business"
+                ]
+            },
+            {
+                "id": 52577,
+                "name": "The Elite Hotel",
+                "city": "Hyderabad",
+                "locality": "Hafeezpet",
+                "landmarkDistance": "604.8 km from city center",
+                "checkInTime": "12:00 PM",
+                "checkOutTime": "11:00 AM",
+                "cancellationText": "Free cancellation available",
+                "confirmationText": {
+                    "instantConfirmation": true,
+                    "text": "Instant confirmation"
+                },
+                "starRating": "3 star hotel",
+                "preferenceText": null,
+                "mainImage": "https://pimg.fabhotels.com/propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584963.jpg",
+                "images": {
+                    "baseUrl": "https://pimg.fabhotels.com/",
+                    "list": [
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584878.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584871.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584782.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584341.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584963.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584878.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584871.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584782.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584341.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584554.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584892.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584310.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584954.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584949.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584896.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584889.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584890.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584416.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584909.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584884.jpg",
+                        "propertyimages/733/images/photos-fabhotel-prime-the-elite-hotel-hyderabad-Hotels_1693207584389.jpg"
+                    ]
+                },
+                "imageCountText": "21 photos",
+                "primaryPersuasion": null,
+                "secondaryPersuasion": null,
+                "soldOut": false,
+                "amenities": [
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023330.png",
+                        "text": "24X7 Security"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050459.png",
+                        "text": "Free Wifi"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050850.png",
+                        "text": "Lift"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120051348.png",
+                        "text": "Parking"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053612.png",
+                        "text": "AC"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054656.png",
+                        "text": "Restaurant"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054732.png",
+                        "text": "Room Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054930.png",
+                        "text": "Wardrobe or Closet"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055030.png",
+                        "text": "Mineral Water Bottle"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055054.png",
+                        "text": "Daily Housekeeping"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055139.png",
+                        "text": "Free Toiletries"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055221.png",
+                        "text": "LCD TV"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040118.png",
+                        "text": "Clean Towels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040227.png",
+                        "text": "Clean Linen"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207011115.png",
+                        "text": "Toilet Paper"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120042733.png",
+                        "text": "Wake-Up Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120044032.png",
+                        "text": "DTH Channels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023056.png",
+                        "text": "Tile/Marble floor"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023028.png",
+                        "text": "24-Hour Front Desk"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869612442.png",
+                        "text": "Fire Extinguishers"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869776703.png",
+                        "text": "Fire Exit"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869799913.png",
+                        "text": "Fire Alarm"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/PowerBackup1602491161933.png",
+                        "text": "Power Backup"
+                    }
+                ],
+                "rates": null,
+                "reviews": [
+                    {
+                        "type": "OVERALL",
+                        "desc": "All travelers",
+                        "rating": 3.0,
+                        "count": 2
+                    },
+                    {
+                        "type": "CORPORATE",
+                        "desc": "TP clients",
+                        "rating": 0.0,
+                        "count": 0
+                    },
+                    {
+                        "type": "COMPANY",
+                        "desc": "Your colleagues",
+                        "rating": 0.0,
+                        "count": 0
+                    }
+                ],
+                "rate": {
+                    "label": "",
+                    "type": "COMPANY_CONTRACTED",
+                    "price": 1662,
+                    "gstIncluded": false,
+                    "saving": null,
+                    "ratePlanId": "EP",
+                    "roomTypeId": "2",
+                    "provider": "2",
+                    "entitlement": {
+                        "name": "OUTOFPOLICY",
+                        "value": "Out of policy"
+                    },
+                    "otaRate": 1744
+                },
+                "otaRate": 1744,
+                "brandCategory": "Hotel",
+                "gstInvoiceText": "100% GST invoice",
+                "outOfPolicy": {
+                    "budgetText": "Maximum budget allowed per night is ₹850 per employee.",
+                    "advanceDaysText": "Employee must book the hotel 4 days in advance.",
+                    "travelClassText": null
+                },
+                "propertyCategory": "Budget",
+                "brandType": "Hotel",
+                "propertyManagedBy": "OTA",
+                "hotelTypes": [
+                    "Business"
+                ]
+            },
+            {
+                "id": 6709,
+                "name": "Sheraton Hyderabad",
+                "city": "Hyderabad",
+                "locality": "Gachibowli",
+                "landmarkDistance": "605.0 km from city center",
+                "checkInTime": "2:00 PM",
+                "checkOutTime": "12:00 PM",
+                "cancellationText": "Free cancellation available",
+                "confirmationText": {
+                    "instantConfirmation": true,
+                    "text": "Instant confirmation"
+                },
+                "starRating": "5 star hotel",
+                "preferenceText": null,
+                "mainImage": "https://pimg.fabhotels.com/propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649758634410.jpg",
+                "images": {
+                    "baseUrl": "https://pimg.fabhotels.com/",
+                    "list": [
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1640337584235.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649757965209.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1640337619689.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1640337619666.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1640337619672.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1640337619747.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1640337584612.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649757965522.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649757965489.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649758634410.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1640337584235.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649757965209.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1640337619689.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1640337619666.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1640337619672.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1640337619747.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1640337584612.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649757965522.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649757965489.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649757965552.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649758418872.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1654856909563.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1640337584571.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1654856929911.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649757965561.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1654856909596.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1654856909541.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649757965553.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649757965540.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649757965525.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649757965564.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1640337551833.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1654856931282.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1640337551685.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649758415757.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649758415741.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1654856909562.jpg",
+                        "propertyimages/727/images/photos-hotel-sheraton-hyderabad-hyderabad-Hotels_1649758415764.jpg"
+                    ]
+                },
+                "imageCountText": "38 photos",
+                "primaryPersuasion": {
+                    "tag": "FILLING_FAST",
+                    "text": ""
+                },
+                "secondaryPersuasion": null,
+                "soldOut": false,
+                "amenities": [
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023330.png",
+                        "text": "24X7 Security"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050459.png",
+                        "text": "Free Wifi"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120050850.png",
+                        "text": "Lift"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120051348.png",
+                        "text": "Parking"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053454.png",
+                        "text": "Gym"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053612.png",
+                        "text": "AC"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120053934.png",
+                        "text": "Conference Room"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054656.png",
+                        "text": "Restaurant"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054732.png",
+                        "text": "Room Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120054930.png",
+                        "text": "Wardrobe or Closet"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055030.png",
+                        "text": "Mineral Water Bottle"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055054.png",
+                        "text": "Daily Housekeeping"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055139.png",
+                        "text": "Free Toiletries"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120055221.png",
+                        "text": "LCD TV"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040118.png",
+                        "text": "Clean Towels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120040227.png",
+                        "text": "Clean Linen"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207011115.png",
+                        "text": "Toilet Paper"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120042733.png",
+                        "text": "Wake-Up Service"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181120044032.png",
+                        "text": "DTH Channels"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023056.png",
+                        "text": "Tile/Marble floor"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/icon_20181207023028.png",
+                        "text": "24-Hour Front Desk"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869776703.png",
+                        "text": "Fire Exit"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579869799913.png",
+                        "text": "Fire Alarm"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1579870007901.png",
+                        "text": "Newspapers"
+                    },
+                    {
+                        "icon": "https://pimg.fabhotels.com/amenities/images/default_amenity_icon1580104903014.png",
+                        "text": "Bar"
+                    }
+                ],
+                "rates": null,
+                "reviews": [
+                    {
+                        "type": "OVERALL",
+                        "desc": "All travelers",
+                        "rating": 4.3,
+                        "count": 13314
+                    },
+                    {
+                        "type": "CORPORATE",
+                        "desc": "TP clients",
+                        "rating": 0.0,
+                        "count": 0
+                    },
+                    {
+                        "type": "COMPANY",
+                        "desc": "Your colleagues",
+                        "rating": 0.0,
+                        "count": 0
+                    }
+                ],
+                "rate": {
+                    "label": "",
+                    "type": "COMPANY_CONTRACTED",
+                    "price": 8549,
+                    "gstIncluded": false,
+                    "saving": null,
+                    "ratePlanId": null,
+                    "roomTypeId": "1",
+                    "provider": "4",
+                    "entitlement": {
+                        "name": "OUTOFPOLICY",
+                        "value": "Out of policy"
+                    },
+                    "otaRate": null
+                },
+                "otaRate": null,
+                "brandCategory": "Hotel",
+                "gstInvoiceText": "100% GST invoice",
+                "outOfPolicy": {
+                    "budgetText": "Maximum budget allowed per night is ₹850 per employee.",
+                    "advanceDaysText": "Employee must book the hotel 4 days in advance.",
+                    "travelClassText": null
+                },
+                "propertyCategory": "Premium",
+                "brandType": "Hotel",
+                "propertyManagedBy": "GDS",
+                "hotelTypes": null
+            }
+        ],
+        "filters": {
+            "preferredLocation": true,
+            "brands": null,
+            "corporateRating": null,
+            "starRatings": [
+                {
+                    "id": "5",
+                    "name": "5 Star",
+                    "selected": false
+                },
+                {
+                    "id": "4",
+                    "name": "4 Star",
+                    "selected": false
+                },
+                {
+                    "id": "3",
+                    "name": "3 Star",
+                    "selected": false
+                },
+                {
+                    "id": "2",
+                    "name": "2 Star",
+                    "selected": false
+                },
+                {
+                    "id": "1",
+                    "name": "1 Star",
+                    "selected": false
+                }
+            ],
+            "cancellationPolicy": null,
+            "confirmationType": [
+                {
+                    "id": "INSTANT",
+                    "name": "Instant confirmation",
+                    "selected": false
+                },
+                {
+                    "id": "PROLONGED_60",
+                    "name": "Confirmation in 60 mins",
+                    "selected": false
+                },
+                {
+                    "id": "PROLONGED_30",
+                    "name": "Confirmation in 30 mins",
+                    "selected": false
+                }
+            ],
+            "recommendedOnly": false,
+            "payAtHotelOnly": false,
+            "outOfPolicyHotels": true,
+            "localities": [
+                {
+                    "id": "188",
+                    "name": "Hitech City",
+                    "selected": false
+                },
+                {
+                    "id": "190",
+                    "name": "Gachibowli",
+                    "selected": false
+                },
+                {
+                    "id": "189",
+                    "name": "Jubilee Hills",
+                    "selected": false
+                },
+                {
+                    "id": "526",
+                    "name": "Secunderabad Railway Station",
+                    "selected": false
+                },
+                {
+                    "id": "186",
+                    "name": "Madhapur",
+                    "selected": false
+                },
+                {
+                    "id": "614",
+                    "name": "Abids",
+                    "selected": false
+                },
+                {
+                    "id": "397",
+                    "name": "Miyapur",
+                    "selected": false
+                },
+                {
+                    "id": "6909",
+                    "name": "Kompally",
+                    "selected": false
+                }
+            ],
+            "hotelChains": null,
+            "mealPlan": [
+                {
+                    "id": "EP",
+                    "name": "No Meal",
+                    "selected": false
+                },
+                {
+                    "id": "CP",
+                    "name": "Breakfast",
+                    "selected": false
+                },
+                {
+                    "id": "MAP",
+                    "name": "Breakfast or Lunch/Dinner",
+                    "selected": false
+                },
+                {
+                    "id": "AP",
+                    "name": "Breakfast, Lunch & Dinner",
+                    "selected": false
+                }
+            ],
+            "minPrice": 470,
+            "maxPrice": 51502,
+            "minPriceLimit": 0,
+            "maxPriceLimit": 100000,
+            "maxPriceDisplay": 30000,
+            "inititalMinPrice": 470,
+            "inititalMaxPrice": 51502,
+            "pricing": {
+                "initialMin": 470,
+                "initialMax": 51502,
+                "min": 51502,
+                "max": null,
+                "buckets": [
+                    {
+                        "id": "r1",
+                        "name": "Upto ₹2,000",
+                        "min": 0,
+                        "max": 2000,
+                        "selected": false
+                    },
+                    {
+                        "id": "r2",
+                        "name": "₹2,001 - ₹4,000",
+                        "min": 2001,
+                        "max": 4000,
+                        "selected": false
+                    },
+                    {
+                        "id": "r3",
+                        "name": "₹4,001 - ₹6,000",
+                        "min": 4001,
+                        "max": 6000,
+                        "selected": false
+                    },
+                    {
+                        "id": "r4",
+                        "name": "₹6,001 - ₹8,000",
+                        "min": 6001,
+                        "max": 8000,
+                        "selected": false
+                    },
+                    {
+                        "id": "r5",
+                        "name": "₹8,000 +",
+                        "min": 8001,
+                        "max": null,
+                        "selected": false
+                    }
+                ]
+            }
+        },
+        "positionSubmitQuery": 20,
+        "landmarkSearch": false,
+        "locality": "Hyderabad",
+        "city": "Hyderabad",
+        "pageTitle": "285 hotel(s) are available in Hyderabad",
+        "nextPage": true,
+        "firstPage": true,
+        "allPropertiesFetched": true,
+        "sortOrder": null,
+        "locationLat": "19.0759837",
+        "locationLon": "72.8776559",
+        "noOfOutOfPolicyHotels": 10,
+        "noOfBudgetHotels": 8,
+        "noOfPremiumHotels": 2,
+        "noOfEmployees": 0,
+        "noOfGuests": 0,
+        "pageNo": 1
+    }
+}

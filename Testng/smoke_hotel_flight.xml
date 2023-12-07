@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite for Flight and Hotel">
+    <listeners>
+       <listener class-name="utilities.CustomListeners"/>
+    </listeners>
+    <test name="Sanity Suite">
+        <parameter name="platformName" value="${platformName}"/>
+        <parameter name="type" value="${type}"/>
+        <parameter name="env" value="${env}"/>
+        <parameter name="count1" value="${count1}"/>
+        <classes>
+            <class name="web.admin.tests.Flight"/>
+            <class name="web.admin.tests.Hotel">
+                <methods>
+                    <include name="book_hotel_with_BTC_payment_type"/>
+                    <exclude name="book_hotel_with_wallet_payment_type"/>
+                    <exclude name="book_hotel_with_payathotel_payment_type"/>
+                    <exclude name="book_international_hotel_with_given_paymentType"/>
+                    <exclude name="book_international_hotel_with_payathotel_payment_type"/>
+                    <exclude name="book_international_hotel_with_wallet_payment_type"/>
+                    <exclude name="book_international_hotel_with_btc_payment_type"/>
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

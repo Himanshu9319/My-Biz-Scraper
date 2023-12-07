@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite for Flight">
+    <listeners>
+        <listener class-name="utilities.CustomListeners"/>
+    </listeners>
+    <test name="Sanity Suite">
+        <parameter name="platformName" value="${platformName}"/>
+        <parameter name="type" value="${type}"/>
+        <parameter name="env" value="${env}"/>
+        <parameter name="count1" value="${count1}"/>
+        <classes>
+            <class name="web.B2C.Test.FabWebURLsHealthCheckup"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

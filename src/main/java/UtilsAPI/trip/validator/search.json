@@ -1,0 +1,807 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "searchResultsInPolicy": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "resultDisplay": {
+                "type": "object",
+                "properties": {
+                  "totalDuration": {
+                    "type": "string"
+                  },
+                  "stopInfo": {
+                    "type": "string"
+                  },
+                  "airlines": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "airlineCode": {
+                          "type": "string"
+                        },
+                        "airlineIcon": {
+                          "type": "string"
+                        },
+                        "airlineTailIcon": {
+                          "type": "string"
+                        },
+                        "airlineName": {
+                          "type": "string"
+                        },
+                        "flightNumber": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "airlineCode",
+                        "airlineIcon",
+                        "airlineTailIcon",
+                        "airlineName",
+                        "flightNumber"
+                      ]
+                    }
+                  },
+                  "source": {
+                    "type": "object",
+                    "properties": {
+                      "airport": {
+                        "type": "object",
+                        "properties": {
+                          "terminal": {
+                            "type": "string"
+                          },
+                          "airportName": {
+                            "type": "string"
+                          },
+                          "cityName": {
+                            "type": "string"
+                          },
+                          "cityCode": {
+                            "type": "string"
+                          },
+                          "airportCode": {
+                            "type": "string"
+                          },
+                          "countryName": {
+                            "type": "string"
+                          },
+                          "countryCode": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "terminal",
+                          "airportName",
+                          "cityName",
+                          "cityCode",
+                          "airportCode",
+                          "countryName",
+                          "countryCode"
+                        ]
+                      },
+                      "depTime": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "airport",
+                      "depTime"
+                    ]
+                  },
+                  "destination": {
+                    "type": "object",
+                    "properties": {
+                      "airport": {
+                        "type": "object",
+                        "properties": {
+                          "terminal": {
+                            "type": "string"
+                          },
+                          "airportName": {
+                            "type": "string"
+                          },
+                          "cityName": {
+                            "type": "string"
+                          },
+                          "cityCode": {
+                            "type": "string"
+                          },
+                          "airportCode": {
+                            "type": "string"
+                          },
+                          "countryName": {
+                            "type": "string"
+                          },
+                          "countryCode": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "terminal",
+                          "airportName",
+                          "cityName",
+                          "cityCode",
+                          "airportCode",
+                          "countryName",
+                          "countryCode"
+                        ]
+                      },
+                      "arrTime": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "airport",
+                      "arrTime"
+                    ]
+                  },
+                  "totalLayoverTimeInHours": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "totalDuration",
+                  "stopInfo",
+                  "airlines",
+                  "source",
+                  "destination",
+                  "totalLayoverTimeInHours"
+                ]
+              },
+              "resultDetail": {
+                "type": "object",
+                "properties": {
+                  "flightDetail": {
+                    "type": "object",
+                    "properties": {
+                      "totalDuration": {
+                        "type": "string"
+                      },
+                      "isGstMandatory": {
+                        "type": "boolean"
+                      },
+                      "flightItineraries": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "itineraryIndex": {
+                              "type": "number"
+                            },
+                            "duration": {
+                              "type": "string"
+                            },
+                            "layover": {
+                              "type": "string"
+                            },
+                            "baggage": {
+                              "type": "object",
+                              "properties": {
+                                "checkIn": {
+                                  "type": "string"
+                                },
+                                "cabin": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "checkIn",
+                                "cabin"
+                              ]
+                            },
+                            "airline": {
+                              "type": "object",
+                              "properties": {
+                                "airlineCode": {
+                                  "type": "string"
+                                },
+                                "airlineIcon": {
+                                  "type": "string"
+                                },
+                                "airlineTailIcon": {
+                                  "type": "string"
+                                },
+                                "airlineName": {
+                                  "type": "string"
+                                },
+                                "flightNumber": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "airlineCode",
+                                "airlineIcon",
+                                "airlineTailIcon",
+                                "airlineName",
+                                "flightNumber"
+                              ]
+                            },
+                            "source": {
+                              "type": "object",
+                              "properties": {
+                                "airport": {
+                                  "type": "object",
+                                  "properties": {
+                                    "terminal": {
+                                      "type": "string"
+                                    },
+                                    "airportName": {
+                                      "type": "string"
+                                    },
+                                    "cityName": {
+                                      "type": "string"
+                                    },
+                                    "cityCode": {
+                                      "type": "string"
+                                    },
+                                    "airportCode": {
+                                      "type": "string"
+                                    },
+                                    "countryName": {
+                                      "type": "string"
+                                    },
+                                    "countryCode": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "terminal",
+                                    "cityCode",
+                                    "airportCode"
+                                  ]
+                                },
+                                "depTime": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "airport",
+                                "depTime"
+                              ]
+                            },
+                            "destination": {
+                              "type": "object",
+                              "properties": {
+                                "airport": {
+                                  "type": "object",
+                                  "properties": {
+                                    "terminal": {
+                                      "type": "string"
+                                    },
+                                    "airportName": {
+                                      "type": "string"
+                                    },
+                                    "cityName": {
+                                      "type": "string"
+                                    },
+                                    "cityCode": {
+                                      "type": "string"
+                                    },
+                                    "airportCode": {
+                                      "type": "string"
+                                    },
+                                    "countryName": {
+                                      "type": "string"
+                                    },
+                                    "countryCode": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "terminal",
+                                    "cityCode",
+                                    "airportCode"
+                                  ]
+                                },
+                                "arrTime": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "airport",
+                                "arrTime"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "itineraryIndex",
+                            "duration",
+                            "baggage",
+                            "airline",
+                            "source",
+                            "destination"
+                          ]
+                        }
+                      },
+                      "fare": {
+                        "type": "object",
+                        "properties": {
+                          "base": {
+                            "type": "number"
+                          },
+                          "taxesAndFees": {
+                            "type": "number"
+                          },
+                          "publishedFare": {
+                            "type": "number"
+                          },
+                          "outOfPolicy": {}
+                        },
+                        "required": [
+                          "base",
+                          "taxesAndFees",
+                          "publishedFare",
+                          "outOfPolicy"
+                        ]
+                      },
+                      "cancellationCharges": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "timeFrame": {
+                              "type": "string"
+                            },
+                            "charges": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "timeFrame",
+                            "charges"
+                          ]
+                        }
+                      },
+                      "rescheduleCharges": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "timeFrame": {
+                              "type": "string"
+                            },
+                            "charges": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "timeFrame",
+                            "charges"
+                          ]
+                        }
+                      },
+                      "gstMandatory": {
+                        "type": "boolean"
+                      },
+                      "lcc": {
+                        "type": "boolean"
+                      },
+                      "isLcc": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "totalDuration",
+                      "isGstMandatory",
+                      "flightItineraries",
+                      "fare",
+                      "cancellationCharges",
+                      "rescheduleCharges",
+                      "gstMandatory",
+                      "lcc",
+                      "isLcc"
+                    ]
+                  },
+                  "fareClasses": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "resultIndex": {
+                          "type": "string"
+                        },
+                        "fareSource": {
+                          "type": "number"
+                        },
+                        "noOfSeatsAvailable": {
+                          "type": "number"
+                        },
+                        "color": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "type": "string"
+                        },
+                        "travelPlusFareType": {
+                          "type": "string"
+                        },
+                        "publishedFare": {
+                          "type": "number"
+                        },
+                        "baggage": {
+                          "type": "object",
+                          "properties": {
+                            "checkIn": {
+                              "type": "string"
+                            },
+                            "cabin": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "checkIn",
+                            "cabin"
+                          ]
+                        },
+                        "cancellationCharges": {
+                          "type": "string"
+                        },
+                        "rescheduleCharges": {
+                          "type": "string"
+                        },
+                        "ticketingSourceValue": {
+                          "type": "number"
+                        },
+                        "inPolicy": {
+                          "type": "boolean"
+                        },
+                        "outOfPolicy": {
+                          "type": "object",
+                          "properties": {
+                            "budgetText": {},
+                            "advanceDaysText": {},
+                            "travelClassText": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "budgetText",
+                            "advanceDaysText",
+                            "travelClassText"
+                          ]
+                        },
+                        "outOfPolicyReasons": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "pricingKey": {},
+                        "isRefundable": {
+                          "type": "boolean"
+                        },
+                        "isCorporateCodeFare": {
+                          "type": "boolean"
+                        }
+                      },
+                      "required": [
+                        "resultIndex",
+                        "fareSource",
+                        "noOfSeatsAvailable",
+                        "color",
+                        "type",
+                        "travelPlusFareType",
+                        "publishedFare",
+                        "baggage",
+                        "cancellationCharges",
+                        "rescheduleCharges",
+                        "ticketingSourceValue",
+                        "inPolicy",
+                        "outOfPolicy",
+                        "outOfPolicyReasons",
+                        "pricingKey",
+                        "isRefundable",
+                        "isCorporateCodeFare"
+                      ]
+                    }
+                  }
+                },
+                "required": [
+                  "flightDetail",
+                  "fareClasses"
+                ]
+              },
+              "sort": {
+                "type": "object",
+                "properties": {
+                  "totalDuration": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "totalDuration"
+                ]
+              },
+              "stop": {
+                "type": "string"
+              },
+              "travelClass": {
+                "type": "string"
+              },
+              "ticketingSourceValue": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "id",
+              "resultDisplay",
+              "resultDetail",
+              "sort",
+              "stop",
+              "travelClass",
+              "ticketingSourceValue"
+            ]
+          }
+        },
+        "searchResultsOutOfPolicy": {
+          "type": "array",
+          "items": {}
+        },
+        "filters": {
+          "type": "object",
+          "properties": {
+            "stop": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "selected": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "id",
+                  "name",
+                  "selected"
+                ]
+              }
+            },
+            "entitlement": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "selected": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "id",
+                  "name",
+                  "selected"
+                ]
+              }
+            },
+            "filterAirline": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "icon": {
+                    "type": "string"
+                  },
+                  "tailIcon": {
+                    "type": "string"
+                  },
+                  "selected": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "id",
+                  "name",
+                  "icon",
+                  "tailIcon",
+                  "selected"
+                ]
+              }
+            },
+            "departureTimeSlot": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "timeRange": {
+                    "type": "object",
+                    "properties": {
+                      "from": {
+                        "type": "string"
+                      },
+                      "to": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "from",
+                      "to"
+                    ]
+                  },
+                  "selected": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "id",
+                  "name",
+                  "timeRange",
+                  "selected"
+                ]
+              }
+            },
+            "arrivalTimeSlot": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "timeRange": {
+                    "type": "object",
+                    "properties": {
+                      "from": {
+                        "type": "string"
+                      },
+                      "to": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "from",
+                      "to"
+                    ]
+                  },
+                  "selected": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "id",
+                  "name",
+                  "timeRange",
+                  "selected"
+                ]
+              }
+            },
+            "priceMinMax": {
+              "type": "string"
+            },
+            "priceMinMaxFilter": {
+              "type": "object",
+              "properties": {
+                "minPriceLimit": {
+                  "type": "number"
+                },
+                "maxPriceLimit": {
+                  "type": "number"
+                },
+                "minPrice": {
+                  "type": "number"
+                },
+                "maxPrice": {
+                  "type": "number"
+                },
+                "maxPriceDisplay": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "minPriceLimit",
+                "maxPriceLimit",
+                "minPrice",
+                "maxPrice",
+                "maxPriceDisplay"
+              ]
+            }
+          },
+          "required": [
+            "stop",
+            "entitlement",
+            "filterAirline",
+            "departureTimeSlot",
+            "arrivalTimeSlot",
+            "priceMinMax",
+            "priceMinMaxFilter"
+          ]
+        },
+        "convFeeWithGst": {
+          "type": "number"
+        },
+        "source": {
+          "type": "string"
+        },
+        "outOfPolicy": {
+          "type": "object",
+          "properties": {
+            "budgetText": {},
+            "advanceDaysText": {},
+            "travelClassText": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "budgetText",
+            "advanceDaysText",
+            "travelClassText"
+          ]
+        },
+        "showRecommendedFlights": {
+          "type": "boolean"
+        },
+        "baggageRuleInfoText": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "outOfPolicyReasons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "internationalSearch": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "searchResultsInPolicy",
+        "searchResultsOutOfPolicy",
+        "filters",
+        "convFeeWithGst",
+        "source",
+        "outOfPolicy",
+        "showRecommendedFlights",
+        "baggageRuleInfoText",
+        "outOfPolicyReasons",
+        "internationalSearch"
+      ]
+    }
+  },
+  "required": [
+    "message",
+    "data"
+  ]
+}

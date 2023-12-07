@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "masterTripId": {
+          "type": "string"
+        },
+        "tripStatus": {
+          "type": "string"
+        },
+        "hotelTripId": {
+          "type": "array",
+          "items": {}
+        },
+        "flightTripId": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "cabTripId": {
+          "type": "array",
+          "items": {}
+        },
+        "trainTripId": {
+          "type": "array",
+          "items": {}
+        },
+        "busTripId": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "masterTripId",
+        "tripStatus",
+        "hotelTripId",
+        "flightTripId",
+        "cabTripId",
+        "trainTripId",
+        "busTripId"
+      ]
+    }
+  },
+  "required": [
+    "message",
+    "data"
+  ]
+}
