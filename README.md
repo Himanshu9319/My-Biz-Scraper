@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # TestingAutomation
-=======
+
 Make sure to check configurations.properties file
 
 For Local Run - Make sure to set the same to true
@@ -30,5 +29,3 @@ mvn clean install surefire:test -Dsurefire.suiteXmlFiles=Testng/api_<project>.xm
 To run the performance tests :
 
 mvn clean test-compile gatling:test -Dgatling.simulationClass=perf.gatling.tests.<directoryOfProject>.<simulationClass>
-
->>>>>>> 57e241a (first commit)
