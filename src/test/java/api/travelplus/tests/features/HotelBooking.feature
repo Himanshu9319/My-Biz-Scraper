@@ -8,9 +8,9 @@ Feature: Hotel booking
     When Get auth token "<emailID>" "<otp>"
     Then validate HTTP status code for login api <httpStatusCode> "<message>"
     Examples:
-      | emailID                   | otp    | httpStatusCode | message               |
-      | sudhir1.singh@fabhotels.com | 123456 | 200            | Login OTP validated. |
-      #| vikas.yadav@fabhotels.com | 123456 | 200            | Login OTP validated. |
+      | emailID                   | otp    | httpStatusCode | message              |
+     # | sudhir1.singh@fabhotels.com | 123456 | 200            | Login OTP validated. |
+      | vikas.yadav@fabhotels.com | 123456 | 200            | Login OTP validated. |
      #|sudhir.singh@fabhotels.com | 123456 | 200            | Login OTP validated. |
 
   @Hotel

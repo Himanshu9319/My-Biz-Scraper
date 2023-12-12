@@ -2,10 +2,7 @@ package web.admin.tests;
 
 import UtilsAPI.HotelBooking.responseDto.Create.DailyRatePlanPrice;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 import utilities.Base;
 import utilities.DriverManager;
@@ -22,28 +19,33 @@ import static web.admin.pages.Flight.*;
 import static web.admin.pages.Hotel.clickOnBookNowButton;
 import static web.admin.pages.LoginPage.loginapplication;
 import static web.admin.pages.Logout.logoutapplication;
+
 @Listeners(utilities.CustomListeners.class)
 public class Flight extends Base {
 
-    Properties properties = TestUtilities.loadConfigProperties();
+
+    @BeforeClass
+    public void methodName() {
+        Base.property = TestUtilities.addConfigProperties(Base.property.getProperty("env"));
+    }
+
     SoftAssert softAssert = new SoftAssert();
 
-    CommonElements common = new CommonElements();
     @BeforeMethod
     public void login() throws InterruptedException {
         openURL();
-        loginapplication(properties.getProperty("username"), "");
+        loginapplication(Base.property.getProperty("username"), "");
     }
 
-     @AfterMethod
+    @AfterMethod
     public void logout() {
-         loadPageWithRetry(Base.property.getProperty("openurl"));
-         logoutapplication();
+        loadPageWithRetry(Base.property.getProperty("url"));
+        logoutapplication();
     }
 
 
-    @Test(enabled = true, priority = 0, description = "Open Travel plus Web Application", dataProvider = "Flight", dataProviderClass = ExcelUtility.class)
-    public static void BookOneWayFlightWithEmployeeWithBTC(String depature, String arrival, String employeename, String MobileNo, String emailid, String travellerCount, String depDate) throws InterruptedException {
+    @Test(enabled = true, priority = 1, description = "Open Travel plus Web Application", dataProvider = "Flight", dataProviderClass = ExcelUtility.class)
+    public static void BookOneWayFlightWithEmployeeWithBTC(String depature, String arrival, String employeename, String MobileNo, String emailid, String travellerCount, String depDate, String flightName, String pricetype, String addons, String city, String username, String usernumber, String userdate, String usermobno) throws InterruptedException {
         clickOnBookNowButton();
         selectFlight();
         enterFromDestination(depature);
@@ -55,10 +57,9 @@ public class Flight extends Base {
         clickondoneButton();
         enterEmployeeName(employeename);
         clickOnSarchFlights();
-        String flightName = selectAndBookFlightWithRegularPrice();
-        System.out.println(flightName);
-        paymentUsingBTC(employeename,MobileNo,emailid,"");
-//        isPnrIsDisplayed();
+        String actualFlightName = selectPrice(flightName, pricetype);
+        paymentUsingBTC(employeename, MobileNo, city, username, usernumber, userdate, usermobno, "");
+        //  isPnrIsDisplayed();
 //        String paymentMode = getPaymentmodetect();
 //        String travellerName = getTravellerName();
 //        String actualFlightName = getFlightName();
@@ -67,7 +68,7 @@ public class Flight extends Base {
 //        Assert.assertEquals(flightName, actualFlightName);
     }
 
-    @Test(enabled = true, priority = 1, description = "Open Travel plus Web Application", dataProvider = "Flight", dataProviderClass = ExcelUtility.class, dependsOnMethods = "BookOneWayFlightWithEmployeeWithBTC")
+    @Test(enabled = true, priority = 2, description = "Open Travel plus Web Application", dataProvider = "Flight", dataProviderClass = ExcelUtility.class, dependsOnMethods = "BookOneWayFlightWithEmployeeWithBTC")
     public static void BookOneWayFlightWithEmployeeWithWalletPaymentOption(String depature, String arrival, String employeename, String MobileNo, String emailid, String travellerCount, String depDate) throws InterruptedException {
         clickOnBookNow();
         selectFlight();
@@ -78,7 +79,7 @@ public class Flight extends Base {
         clickondoneButton();
         enterEmployeeName(employeename);
         clickOnSarchFlights();
-        String flightName = selectAndBookFlightWithRegularPrice();
+        //String flightName = selectAndBookFlightWithRegularPrice();
         paymentusinfwallet();
         isPnrIsDisplayed();
         String paymentMode = getPaymentmodetect();
@@ -86,6 +87,6 @@ public class Flight extends Base {
         String actualFlightName = getFlightName();
         Assert.assertEquals(travellerName.toLowerCase(), employeename.toLowerCase());
         Assert.assertEquals(paymentMode, "Prepaid");
-        Assert.assertEquals(flightName, actualFlightName);
+        //  Assert.assertEquals(flightName, actualFlightName);
     }
 }

@@ -141,7 +141,7 @@ public class Email {
 
     }
 
-   public static  void emailSend(String error ,BodyPart bosy){
+    public static void emailSend(String error, BodyPart bosy) {
 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
@@ -156,7 +156,8 @@ public class Email {
                     protected PasswordAuthentication getPasswordAuthentication() {
                         return new PasswordAuthentication(FROM,
                                 PASSWORD);
-                    } });
+                    }
+                });
 
         try {
             Message message = new MimeMessage(session);
@@ -164,7 +165,10 @@ public class Email {
                     InternetAddress(FROM));
             message.setRecipients(Message.RecipientType.TO,
                     InternetAddress.parse("abhishek.singh@fabhotels.com"));
-            message.setSubject("Testing Subject");
+            if (properties.getProperty("ismobileview").equalsIgnoreCase("no"))
+                message.setSubject("WEB URL HEALTH CHECK");
+            else
+                message.setSubject("MOBILE URL HEALTH CHECK");
 
             BodyPart messageBodyPart1 = new MimeBodyPart();
 
@@ -174,7 +178,7 @@ public class Email {
 
             Multipart multipart = new MimeMultipart();
             multipart.addBodyPart(bosy);
-           // multipart.addBodyPart(messageBodyPart1);
+            // multipart.addBodyPart(messageBodyPart1);
             message.setContent(multipart);
             Transport.send(message);
 

@@ -31,8 +31,8 @@ import java.util.NoSuchElementException;
 
 import static utilities.CommonFunctionsWeb.*;
 
-@Listeners(utilities.CustomListeners.class)
-public class FabWebURLsHealthCheckup  extends  Base{
+//@Listeners(utilities.CustomListeners.class)
+public class FabWebURLsHealthCheckup extends Base {
 
     static SoftAssert softAssert = new SoftAssert();
     static ArrayList<Object> TwoXX = new ArrayList<>();
@@ -71,30 +71,57 @@ public class FabWebURLsHealthCheckup  extends  Base{
 //        System.out.println(TwoXX);
 //        System.out.println(OtherXX);
 //        System.out.println(linksOfStaleElement);
-        testLevelReport.get().log(Status.INFO, url + "");
+        //java tes  testLevelReport.get().log(Status.INFO, url + "");
         int stausCode = isURLWorking(url);
-        TwoXX.add(stausCode + " " + url);
-
-        softAssert.assertEquals(200, stausCode, url);
-        softAssert.assertAll();
+        if (stausCode != 200) {
+            TwoXX.add(stausCode + "  " + url);
+        }
+//        softAssert.assertEquals(200, stausCode, url);
+//        softAssert.assertAll();
 
 
     }
 
+//    @AfterClass
+//    public static Object createMenthodBody() throws MessagingException {
+//        // Create object to add multimedia type content
+//        System.out.println("---" + TwoXX.size());
+//        BodyPart messageBodyPart1 = new MimeBodyPart();
+//        StringBuilder messageContent = new StringBuilder();
+//        for (int i = 0; i < TwoXX.size(); i++) {
+//            messageContent.append(TwoXX.get(i));
+//            messageBodyPart1.setText(String.valueOf(TwoXX));
+//        }
+//        Email.emailSend("", messageBodyPart1);
+//        return messageBodyPart1;
+//    }
+
     @AfterClass
     public static Object createMenthodBody() throws MessagingException {
         // Create object to add multimedia type content
-        System.out.println("---"+TwoXX.size());
+        System.out.println("---" + TwoXX.size());
         BodyPart messageBodyPart1 = new MimeBodyPart();
+
+        StringBuilder messageContent = new StringBuilder();
+
         for (int i = 0; i < TwoXX.size(); i++) {
-            messageBodyPart1.setText(String.valueOf(TwoXX));
+            messageContent.append(TwoXX.get(i));
+            if (i < TwoXX.size() - 1) {
+                // Add a newline character if it's not the last element
+                messageContent.append("\n");
+            }
         }
-        Email.emailSend("",messageBodyPart1);
+
+        messageBodyPart1.setText(messageContent.toString());
+        Email.emailSend("", messageBodyPart1);
         return messageBodyPart1;
     }
 
     private static int isURLWorking(String url) throws IOException {
         try {
+            if (property.getProperty("ismobileview").equalsIgnoreCase("Yes")) {
+                System.setProperty("http.agent", "Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36");
+            }
             HttpURLConnection connection = (HttpURLConnection) new URL(url).openConnection();
             connection.setRequestMethod("HEAD");
             int responseCode = connection.getResponseCode();

@@ -1,6 +1,7 @@
 package web.admin.pages;
 
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import utilities.CommonFunctionsWeb;
 import utilities.RandomDataCreator;
 
@@ -62,7 +63,7 @@ public class Flight {
 
     private static By BILL_TO_COMPANY = By.xpath("//span[text()='Bill to company']");
 
-    private static By radio_selected = By.xpath("//span[@class='radioSelector ']");
+    private static By radio_selected = By.xpath("//span[@class=\"radioSelector selected  \"]");
 
     private static By contibueButton = By.xpath("//button[text()='Confirm booking']");
 
@@ -74,6 +75,29 @@ public class Flight {
 
     private static By mobileNo = By.xpath("//span[text()='Mobile number']");
 
+    private static By flightFaretypeelement = By.xpath("//div[@class=\"sub-section td-static-column\"]");
+    private static By priceBreakUpPage = By.xpath("//div[@class=\"price-breakup-wrapper\"]");
+
+    private static By actualFlightName = By.xpath("//span[@class=\"airline\"]");
+
+    private static By customFieldSearch = By.xpath("//input[@data-testid=\"multisuggest-input\"]");
+
+    private static By suggestedEmployeeName = By.xpath("//span[@class=\"suggestion-name\"]");
+
+    private static By paymentTextElement = By.xpath("//span[@class=\"radioSelector selected  \"]/following-sibling::span");
+
+    private static By cityListdropdown = By.xpath("//span[text()='City list']/..");
+    private static By dropDownList = By.cssSelector("[data-testid=\"dropDownList\"]");
+
+    private static By cityName = By.xpath("//span[@class=\"item-text\"]");
+
+    private static By userNameElement = By.xpath("//input[@id='User name']");
+
+    private static By usernumberElement = By.xpath("//input[@name='User number']");
+
+    private static By userDateElement = By.xpath("//span[text()='User date']/following-sibling::input");
+
+    private static By userMobileNoElement = By.xpath("//input[@id=\"User mob\"]");
 
     public static void selectFlight() {
         CommonFunctionsWeb.waitForVisibility(flightsTabButtonElement);
@@ -160,16 +184,15 @@ public class Flight {
         CommonFunctionsWeb.isElementDisplayed(filterSection, "Filter section");
     }
 
-    public static String selectAndBookFlightWithRegularPrice() throws InterruptedException {
-        int size = CommonFunctionsWeb.getElements(viewfareElement).size();
-        int index = RandomDataCreator.generateRandomInt(0, size - 1);
-        String flightName = CommonFunctionsWeb.getElements(airlinename).get(index).getText();
-        CommonFunctionsWeb.clickOnElements(viewfareElement, "Click on view fare element", index);
-        CommonFunctionsWeb.click(bookButtonElement, "Click on regular flight");
-        CommonFunctionsWeb.waitForVisibility(loader);
-        CommonFunctionsWeb.waitForElementToDisappear(loader);
+    public static String selectPrice(String flight, String pricetype) throws InterruptedException {
+        By viewFareFlightName = By.xpath("(//div[text()='" + flight + "']/../../..//div[@class='view-fare'])[1]");
+        By priceTypeButton = By.xpath("//div[text()='" + pricetype + "']/..//div[@class='book_cta ']");
+        CommonFunctionsWeb.click(viewFareFlightName, "Click on '" + flight + "'" + "view fare");
+        CommonFunctionsWeb.waitForVisibility(flightFaretypeelement);
+        CommonFunctionsWeb.click(priceTypeButton, "Click on '" + pricetype + "'" + "flight");
+        CommonFunctionsWeb.waitForVisibility(priceBreakUpPage);
         CommonFunctionsWeb.waitForVisibility(model_text);
-        return flightName;
+        return CommonFunctionsWeb.getText(actualFlightName, "Actual flight name on price break up page");
     }
 
     public static void paymentusinfwallet() throws InterruptedException {
@@ -178,28 +201,28 @@ public class Flight {
         CommonFunctionsWeb.click(Wallet, "WALLET");
         CommonFunctionsWeb.waitForVisibility(radio_selected);
         CommonFunctionsWeb.click(confirmBookingElement, "Click on confirm booking Button");
-        searchAgainWhenAirlineSystemFail();
+        // searchAgainWhenAirlineSystemFail();
     }
 
-    public static void searchAgainWhenAirlineSystemFail() throws InterruptedException {
-        if (CommonFunctionsWeb.getElements(errormessagecontainer).size() > 0) {
-            while (CommonFunctionsWeb.getElements(errormessagecontainer).size() > 0) {
-                if (CommonFunctionsWeb.getElements(messagePriceUpdate).size() > 0) {
-                    CommonFunctionsWeb.click(yesElement, "Click on yes");
-                    CommonFunctionsWeb.pageContainUrl("https://tenant.fabmailers.in/admin/orion/travel/flight-confirmation/");
-                } else {
-                    CommonFunctionsWeb.click(searchAgain, "Click on search again");
-                    CommonFunctionsWeb.waitForVisibility(flightListingSection);
-                    selectAndBookFlightWithRegularPrice();
-                    CommonFunctionsWeb.click(confirmBookingElement, "Click on confirm booking Button");
-                    CommonFunctionsWeb.waitForVisibility(confirmationtitle);
-                }
-            }
-        } else {
-            CommonFunctionsWeb.waitForVisibility(confirmationtitle);
-        }
-
-    }
+//    public static void searchAgainWhenAirlineSystemFail() throws InterruptedException {
+//        if (CommonFunctionsWeb.getElements(errormessagecontainer).size() > 0) {
+//            while (CommonFunctionsWeb.getElements(errormessagecontainer).size() > 0) {
+//                if (CommonFunctionsWeb.getElements(messagePriceUpdate).size() > 0) {
+//                    CommonFunctionsWeb.click(yesElement, "Click on yes");
+//                    CommonFunctionsWeb.pageContainUrl("https://tenant.fabmailers.in/admin/orion/travel/flight-confirmation/");
+//                } else {
+//                    CommonFunctionsWeb.click(searchAgain, "Click on search again");
+//                    CommonFunctionsWeb.waitForVisibility(flightListingSection);
+//                    selectAndBookFlightWithRegularPrice();
+//                    CommonFunctionsWeb.click(confirmBookingElement, "Click on confirm booking Button");
+//                    CommonFunctionsWeb.waitForVisibility(confirmationtitle);
+//                }
+//            }
+//        } else {
+//            CommonFunctionsWeb.waitForVisibility(confirmationtitle);
+//        }
+//
+//    }
 
     public static void clickOnDepatureDateElement() {
         CommonFunctionsWeb.click(depdateElement, " Departure date element");
@@ -211,17 +234,17 @@ public class Flight {
         CommonFunctionsWeb.waitForVisibility(calander);
     }
 
-    public static String paymentUsingBTC(String employeelastname, String phoneno, String email, String bookingstatus) throws InterruptedException {
+    public static String paymentUsingBTC(String employeename, String phoneno, String city, String userName, String usernumber, String userdate, String userMob, String bookingstatus) throws InterruptedException {
         CommonFunctionsWeb.waitForVisibility(BILL_TO_COMPANY);
         CommonFunctionsWeb.click(BILL_TO_COMPANY, "BILL TO COMPANY");
         CommonFunctionsWeb.waitForVisibility(radio_selected);
         CommonFunctionsWeb.click(contibueButton, "Click on continue Button");
         selectGSt();
-        enterEmployeeDate(phoneno);
-        CommonFunctionsWeb.pageContainUrl("/admin/orion/travel/booking-confirmation/");
-        CommonFunctionsWeb.waitForVisibility(tripstatus);
-        return CommonFunctionsWeb.getText(tripstatus, "Booking confrimed status");
+        enterDataForExistingEmployee(employeename, city, userName, usernumber, userdate, userMob);
+        CommonFunctionsWeb.click(contibueButton, "Click on continue Button");
+        return CommonFunctionsWeb.getText(paymentTextElement, "Get payment type text");
     }
+
 
     public static void fillTravellerDetails() {
         CommonFunctionsWeb.click(plus_signbutton, "Click on plus sign button");
@@ -233,6 +256,27 @@ public class Flight {
 
     public static void enterEmployeeDate(String phoneNo) {
         CommonFunctionsWeb.enterCharacter(mobileNo, phoneNo, "Mobile no");
+    }
+
+    public static void enterDataForExistingEmployee(String employeename, String City, String username, String usernumber, String userdate, String usermob) {
+        CommonFunctionsWeb.enterCharacter(customFieldSearch, employeename, "");
+        if (CommonFunctionsWeb.getText(suggestedEmployeeName, "EmployeeName").equalsIgnoreCase(employeename)) {
+            CommonFunctionsWeb.click(suggestedEmployeeName, "Click on suggested employee name");
+        }
+        CommonFunctionsWeb.waitForElementToBeClikable(cityListdropdown);
+        CommonFunctionsWeb.click(cityListdropdown, "City list dropdwon");
+        for (int i = 0; i < CommonFunctionsWeb.getElements(cityName).size(); i++) {
+            if (CommonFunctionsWeb.getElements(cityName).get(i).getText().equalsIgnoreCase(City)) {
+                CommonFunctionsWeb.click(cityName, "Select given city");
+            } else {
+                Assert.fail("City is not present on given list");
+            }
+        }
+        Calander.selectUserDate(userdate.split(" ")[0], userdate.split(" ")[1], userdate.split(" ")[2]);
+        CommonFunctionsWeb.enterCharacter(userNameElement, username, "Enter user name");
+        CommonFunctionsWeb.enterCharacter(usernumberElement, usernumber, "Enter user number");
+        CommonFunctionsWeb.enterCharacter(userDateElement, "15/12/2023", "Enter date");
+        CommonFunctionsWeb.enterCharacter(userMobileNoElement, usermob, "");
     }
 
 

@@ -15,6 +15,10 @@
         <selenium.version>4.12.1</selenium.version>
         <gatling.version>3.9.5</gatling.version>
         <restassured.version>5.3.0</restassured.version>
+        <defaultSuiteFiles>
+            ./Testng/web_mybizz.xml,
+        </defaultSuiteFiles>
+        <suiteFile>${defaultSuiteFiles}</suiteFile>
     </properties>
     <dependencies>
         <dependency>
@@ -262,7 +266,7 @@
                 <version>3.0.0</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>Testng/web_mybizz.xml</suiteXmlFile>
+                        <suiteXmlFile>${suiteFile}</suiteXmlFile>
                     </suiteXmlFiles>
                     <systemPropertyVariables>
                         <platformName>${platformName}</platformName>

@@ -3,10 +3,7 @@ package web.admin.tests;
 import UtilsAPI.HotelBooking.responseDto.Create.DailyRatePlanPrice;
 import com.aventstack.extentreports.Status;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 import utilities.Base;
 import utilities.DriverManager;
@@ -24,23 +21,28 @@ import static web.admin.pages.Logout.logoutapplication;
 
 @Listeners(utilities.CustomListeners.class)
 public class Hotel extends Base {
-    Properties properties = TestUtilities.loadConfigProperties();
+
     public static String bookingId;
     SoftAssert softAssert = new SoftAssert();
+
+    @BeforeClass
+    public void methodName() {
+        Base.property = TestUtilities.addConfigProperties(Base.property.getProperty("env"));
+    }
 
     @BeforeMethod
     public void login() throws InterruptedException {
         openURL();
-        loginapplication(properties.getProperty("username"), "");
+        loginapplication(Base.property.getProperty("username"), "");
     }
 
     @AfterMethod
     public void logout() {
-        loadPageWithRetry(Base.property.getProperty("openurl"));
+        loadPageWithRetry(Base.property.getProperty("url"));
         logoutapplication();
     }
 
-    @Test(enabled = true, priority = 2, description = "Open Travel plus Web Application", dataProvider = "excel-data", dataProviderClass = ExcelUtility.class)
+    @Test(enabled = true, priority = 1, description = "Open Travel plus Web Application", dataProvider = "excel-data", dataProviderClass = ExcelUtility.class)
     public void book_hotel_with_BTC_payment_type(String cityname, String employeename, String emplolastname, String phonno, String emailid, String checkindate, String checkoutDate, String bookingstatus) throws InterruptedException, IOException {
         clickOnBookNowButton();
         enterHotelDetails(cityname, employeename, checkindate, checkoutDate);

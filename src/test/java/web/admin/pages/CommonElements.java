@@ -81,7 +81,6 @@ public class CommonElements {
         if (CommonFunctionsWeb.getElements(gstElement).size() > 0) {
             CommonFunctionsWeb.click(gstDropDown, "Click on gst dropdown");
             CommonFunctionsWeb.click(gstCompnay, "Select gst company");
-            CommonFunctionsWeb.click(continue_button, "Click on continue Button");
         }
     }
 

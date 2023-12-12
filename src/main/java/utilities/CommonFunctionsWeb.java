@@ -9,6 +9,7 @@ import org.testng.Assert;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.Set;
 import java.util.SortedSet;
 import java.util.concurrent.TimeUnit;
 
@@ -19,7 +20,8 @@ public class CommonFunctionsWeb extends Base {
             driver.manage().window().maximize();
             Base.driver.manage().deleteAllCookies();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-            String url = Base.property.getProperty("openurl");
+            Base.property = TestUtilities.addConfigProperties(Base.property.getProperty("env"));
+            String url = Base.property.getProperty("url");
             loadPageWithRetry(url);
             testLevelReport.get().log(Status.PASS, "Able to launch URL");
             testLevelReport.get().log(Status.INFO, url);
@@ -67,10 +69,11 @@ public class CommonFunctionsWeb extends Base {
             Assert.fail("Unable to click on button : " + elementName);
         }
     }
+
     public static void hoverElement(By locator, String elementName) {
         try {
-             fluentWait(locator);
-         //   action.moveToElement(fluentWait(locator)).build().perform();
+            fluentWait(locator);
+            //   action.moveToElement(fluentWait(locator)).build().perform();
             testLevelReport.get().log(Status.PASS, "Clicked on element : " + elementName);
         } catch (Exception e) {
             testLevelReport.get().log(Status.FAIL, "Unable to click on button : " + elementName);
@@ -120,7 +123,7 @@ public class CommonFunctionsWeb extends Base {
         try {
             fluentWaitWithWebElements(locator);
             action.moveToElement(getElements(locator).get(index)).click().perform();
-           // getElements(locator).get(index).click();
+            // getElements(locator).get(index).click();
             testLevelReport.get().log(Status.PASS, "Clicked on element : " + elementName);
         } catch (Exception e) {
             testLevelReport.get().log(Status.FAIL, "Unable to click on button : " + elementName);
@@ -146,7 +149,7 @@ public class CommonFunctionsWeb extends Base {
     }
 
     public static void waitForVisibility(By locator) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
         try {
             wait.until(ExpectedConditions.visibilityOf(driver.findElement(locator)));
         } catch (Exception e) {
@@ -181,8 +184,6 @@ public class CommonFunctionsWeb extends Base {
             System.out.println("Not able to Load url");
         }
     }
-
-
 
 
     public static boolean verifyAttributValue(By element, String text, String attribute, String elementName) {
@@ -301,12 +302,14 @@ public class CommonFunctionsWeb extends Base {
         }
     }
 
-    public static void openURLWithMobileView(String url) throws InterruptedException {
+    public static void openB2BURL() throws InterruptedException {
         try {
-            driver = DriverManager.getMobileViewDrivverInstance(property.getProperty("browser"), 20, 10);
-             driver.manage().window().maximize();
+            driver = DriverManager.getDriverInstance(property.getProperty("browser"), 20, 10);
+            driver.manage().window().maximize();
             Base.driver.manage().deleteAllCookies();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+            Base.property = TestUtilities.addConfigProperties(Base.property.getProperty("env"));
+            String url = Base.property.getProperty("b2curl");
             loadPageWithRetry(url);
             testLevelReport.get().log(Status.PASS, "Able to launch URL");
             testLevelReport.get().log(Status.INFO, url);
@@ -315,6 +318,14 @@ public class CommonFunctionsWeb extends Base {
             testLevelReport.get().log(Status.DEBUG, e);
             Assert.fail("Unable to launch URL for : " + "Travelplus");
 
+        }
+    }
+
+    public static void switchTab() {
+        Set<String> windowHandles = driver.getWindowHandles();
+        // Switch to the new tab
+        for (String handle : windowHandles) {
+            driver.switchTo().window(handle);
         }
     }
 

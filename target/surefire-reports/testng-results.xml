@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite for Flight" duration-ms="19150" started-at="2023-12-11T18:19:49 IST" finished-at="2023-12-11T18:20:08 IST">
+    <groups>
+    </groups>
+    <test name="Sanity Suite" duration-ms="19150" started-at="2023-12-11T18:19:49 IST" finished-at="2023-12-11T18:20:08 IST">
+      <class name="web.B2C.Test.FabWebURLsHealthCheckup">
+        <test-method status="PASS" signature="setUpResources()[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="setUpResources" is-config="true" duration-ms="49" started-at="2023-12-11T18:19:49 IST" finished-at="2023-12-11T18:19:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpResources -->
+        <test-method status="PASS" signature="getDevices(java.lang.String)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="getDevices" is-config="true" duration-ms="2" started-at="2023-12-11T18:19:49 IST" finished-at="2023-12-11T18:19:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDevices -->
+        <test-method status="PASS" signature="startClass()[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startClass" is-config="true" duration-ms="6" started-at="2023-12-11T18:19:49 IST" finished-at="2023-12-11T18:19:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startClass -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="0" started-at="2023-12-11T18:19:49 IST" finished-at="2023-12-11T18:19:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="844" started-at="2023-12-11T18:19:49 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="185" started-at="2023-12-11T18:19:50 IST" finished-at="2023-12-11T18:19:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="1" started-at="2023-12-11T18:19:50 IST" finished-at="2023-12-11T18:19:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="1086" started-at="2023-12-11T18:19:50 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/search?city=New-Delhi&guests=1&checkIn=2023-12-06&checkOut=2023-12-07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="71" started-at="2023-12-11T18:19:52 IST" finished-at="2023-12-11T18:19:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="1" started-at="2023-12-11T18:19:52 IST" finished-at="2023-12-11T18:19:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="1463" started-at="2023-12-11T18:19:52 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/hotels-in-new-delhi?checkIn=2023-12-06&checkOut=2023-12-07&guests=1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="50" started-at="2023-12-11T18:19:53 IST" finished-at="2023-12-11T18:19:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="1" started-at="2023-12-11T18:19:53 IST" finished-at="2023-12-11T18:19:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="764" started-at="2023-12-11T18:19:53 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/hotels-in-new-delhi/fabhotel-white-klove-paharganj.html?checkIn=2023-12-06&checkOut=2023-12-07&guests=1&couponCode=STAYFAB&mealPlan=CP&orderId=casa2inns_65703bdb2f491]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="45" started-at="2023-12-11T18:19:54 IST" finished-at="2023-12-11T18:19:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="0" started-at="2023-12-11T18:19:54 IST" finished-at="2023-12-11T18:19:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="175" started-at="2023-12-11T18:19:54 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/deals/fab-payday-offer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="48" started-at="2023-12-11T18:19:54 IST" finished-at="2023-12-11T18:19:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="1207" started-at="2023-12-11T18:19:54 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/list-of-couple-friendly-hotels-in-new-delhi?checkIn=2023-12-06&checkOut=2023-12-07&guests=1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="0" started-at="2023-12-11T18:19:54 IST" finished-at="2023-12-11T18:19:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="42" started-at="2023-12-11T18:19:55 IST" finished-at="2023-12-11T18:19:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="1" started-at="2023-12-11T18:19:55 IST" finished-at="2023-12-11T18:19:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="239" started-at="2023-12-11T18:19:55 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/brands/fabexpress?checkIn=2023-12-06&checkOut=2023-12-07&guests=1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="52" started-at="2023-12-11T18:19:56 IST" finished-at="2023-12-11T18:19:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="140" started-at="2023-12-11T18:19:56 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/hotels-near-me]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="0" started-at="2023-12-11T18:19:56 IST" finished-at="2023-12-11T18:19:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="42" started-at="2023-12-11T18:19:56 IST" finished-at="2023-12-11T18:19:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="1" started-at="2023-12-11T18:19:56 IST" finished-at="2023-12-11T18:19:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="574" started-at="2023-12-11T18:19:56 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/refer-and-earn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="30" started-at="2023-12-11T18:19:56 IST" finished-at="2023-12-11T18:19:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="1" started-at="2023-12-11T18:19:56 IST" finished-at="2023-12-11T18:19:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="280" started-at="2023-12-11T18:19:56 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/deals-and-offer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="43" started-at="2023-12-11T18:19:57 IST" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="0" started-at="2023-12-11T18:19:57 IST" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="110" started-at="2023-12-11T18:19:57 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/contact-us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="32" started-at="2023-12-11T18:19:57 IST" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="0" started-at="2023-12-11T18:19:57 IST" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="166" started-at="2023-12-11T18:19:57 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/cancellation-refunds-policy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="39" started-at="2023-12-11T18:19:57 IST" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="1" started-at="2023-12-11T18:19:57 IST" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="57" started-at="2023-12-11T18:19:57 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/privacy-policy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="21" started-at="2023-12-11T18:19:57 IST" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="0" started-at="2023-12-11T18:19:57 IST" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="39" started-at="2023-12-11T18:19:57 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/franchise-enquiry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="32" started-at="2023-12-11T18:19:57 IST" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="1" started-at="2023-12-11T18:19:57 IST" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="37" started-at="2023-12-11T18:19:57 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/terms-conditions/a-list]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="20" started-at="2023-12-11T18:19:57 IST" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="1" started-at="2023-12-11T18:19:57 IST" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="100" started-at="2023-12-11T18:19:57 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/corporate-enquiry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="30" started-at="2023-12-11T18:19:57 IST" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="0" started-at="2023-12-11T18:19:57 IST" finished-at="2023-12-11T18:19:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="186" started-at="2023-12-11T18:19:57 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/loyalty-program-a-list]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="40" started-at="2023-12-11T18:19:58 IST" finished-at="2023-12-11T18:19:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="1" started-at="2023-12-11T18:19:58 IST" finished-at="2023-12-11T18:19:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="106" started-at="2023-12-11T18:19:58 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/faqs/fab-credits]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="29" started-at="2023-12-11T18:19:58 IST" finished-at="2023-12-11T18:19:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="1" started-at="2023-12-11T18:19:58 IST" finished-at="2023-12-11T18:19:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="87" started-at="2023-12-11T18:19:58 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/uiuiuiiuyad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="31" started-at="2023-12-11T18:19:58 IST" finished-at="2023-12-11T18:19:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="startMethod" is-config="true" duration-ms="0" started-at="2023-12-11T18:19:58 IST" finished-at="2023-12-11T18:19:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="hitFabURL" duration-ms="202" started-at="2023-12-11T18:19:58 IST" description="Fabhotels url&#039;s" data-provider="FBWebURL" finished-at="2023-12-11T18:19:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.fabhotels.com/uiuiuiiuyad/hihuiu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitFabURL -->
+        <test-method status="PASS" signature="killMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killMethod" is-config="true" duration-ms="35" started-at="2023-12-11T18:19:58 IST" finished-at="2023-12-11T18:19:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=hitFabURL status=SUCCESS method=FabWebURLsHealthCheckup.hitFabURL(java.lang.String)[pri:1, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killMethod -->
+        <test-method status="PASS" signature="createMenthodBody()[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="createMenthodBody" is-config="true" duration-ms="9965" started-at="2023-12-11T18:19:58 IST" finished-at="2023-12-11T18:20:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMenthodBody -->
+        <test-method status="PASS" signature="killClass()[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killClass" is-config="true" duration-ms="1" started-at="2023-12-11T18:20:08 IST" finished-at="2023-12-11T18:20:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killClass -->
+        <test-method status="PASS" signature="killResources()[pri:0, instance:web.B2C.Test.FabWebURLsHealthCheckup@327b636c]" name="killResources" is-config="true" duration-ms="15" started-at="2023-12-11T18:20:08 IST" finished-at="2023-12-11T18:20:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killResources -->
+      </class> <!-- web.B2C.Test.FabWebURLsHealthCheckup -->
+    </test> <!-- Sanity Suite -->
+  </suite> <!-- Test Suite for Flight -->
+</testng-results>

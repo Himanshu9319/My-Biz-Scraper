@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test_Suite_for_Flight">
+              <span class="suite-name border-passed">Test Suite for Flight</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test_Suite_for_Flight">
+                    <span>faburl.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test_Suite_for_Flight">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test_Suite_for_Flight">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test_Suite_for_Flight">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test_Suite_for_Flight">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_Suite_for_Flight">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test_Suite_for_Flight">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Suite_for_Flight" class="hide-methods passed suite-Test_Suite_for_Flight"> (hide)</a> <!-- hide-methods passed suite-Test_Suite_for_Flight -->
+                      <a href="#" panel-name="suite-Test_Suite_for_Flight" class="show-methods passed suite-Test_Suite_for_Flight"> (show)</a> <!-- show-methods passed suite-Test_Suite_for_Flight -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Suite_for_Flight">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/)">hitFabURL(https://www.fabhotels.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/hotels-in-new-delhi/fabhotel-white-klove-paharganj.html?checkIn=2023-12-06...)">hitFabURL(https://www.fabhotels.com/hotels-in-new-delhi/fabhotel-white-klove-paharganj.html?checkIn=2023-12-06...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/search?city=New-Delhi&amp;guests=1&amp;checkIn=2023-12-06&amp;checkOut=2023-12-07)">hitFabURL(https://www.fabhotels.com/search?city=New-Delhi&guests=1&checkIn=2023-12-06&checkOut=2023-12-07)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/hotels-in-new-delhi?checkIn=2023-12-06&amp;checkOut=2023-12-07&amp;guests=1)">hitFabURL(https://www.fabhotels.com/hotels-in-new-delhi?checkIn=2023-12-06&checkOut=2023-12-07&guests=1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/list-of-couple-friendly-hotels-in-new-delhi?checkIn=2023-12-06&amp;checkOut=20...)">hitFabURL(https://www.fabhotels.com/list-of-couple-friendly-hotels-in-new-delhi?checkIn=2023-12-06&checkOut=20...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/deals-and-offer)">hitFabURL(https://www.fabhotels.com/deals-and-offer)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/uiuiuiiuyad)">hitFabURL(https://www.fabhotels.com/uiuiuiiuyad)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/uiuiuiiuyad/hihuiu)">hitFabURL(https://www.fabhotels.com/uiuiuiiuyad/hihuiu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/loyalty-program-a-list)">hitFabURL(https://www.fabhotels.com/loyalty-program-a-list)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/corporate-enquiry)">hitFabURL(https://www.fabhotels.com/corporate-enquiry)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/faqs/fab-credits)">hitFabURL(https://www.fabhotels.com/faqs/fab-credits)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/refer-and-earn)">hitFabURL(https://www.fabhotels.com/refer-and-earn)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/cancellation-refunds-policy)">hitFabURL(https://www.fabhotels.com/cancellation-refunds-policy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/privacy-policy)">hitFabURL(https://www.fabhotels.com/privacy-policy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/deals/fab-payday-offer)">hitFabURL(https://www.fabhotels.com/deals/fab-payday-offer)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/brands/fabexpress?checkIn=2023-12-06&amp;checkOut=2023-12-07&amp;guests=1)">hitFabURL(https://www.fabhotels.com/brands/fabexpress?checkIn=2023-12-06&checkOut=2023-12-07&guests=1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/terms-conditions/a-list)">hitFabURL(https://www.fabhotels.com/terms-conditions/a-list)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/franchise-enquiry)">hitFabURL(https://www.fabhotels.com/franchise-enquiry)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/hotels-near-me)">hitFabURL(https://www.fabhotels.com/hotels-near-me)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite_for_Flight" title="web.B2C.Test.FabWebURLsHealthCheckup" hash-for-method="hitFabURL(https://www.fabhotels.com/contact-us)">hitFabURL(https://www.fabhotels.com/contact-us)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Suite_for_Flight -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Suite_for_Flight" class="panel Test_Suite_for_Flight">
+          <div class="suite-Test_Suite_for_Flight-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">web.B2C.Test.FabWebURLsHealthCheckup</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/hotels-in-new-delhi/fabhotel-white-klove-paharganj.html?checkIn=2023-12-06...)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/hotels-in-new-delhi/fabhotel-white-klove-paharganj.html?checkIn=2023-12-06...) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/hotels-in-new-delhi/fabhotel-white-klove-paharganj.html?checkIn=2023-12-06&checkOut=2023-12-07&guests=1&couponCode=STAYFAB&mealPlan=CP&orderId=casa2inns_65703bdb2f491)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/search?city=New-Delhi&amp;guests=1&amp;checkIn=2023-12-06&amp;checkOut=2023-12-07)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/search?city=New-Delhi&guests=1&checkIn=2023-12-06&checkOut=2023-12-07) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/search?city=New-Delhi&guests=1&checkIn=2023-12-06&checkOut=2023-12-07)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/hotels-in-new-delhi?checkIn=2023-12-06&amp;checkOut=2023-12-07&amp;guests=1)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/hotels-in-new-delhi?checkIn=2023-12-06&checkOut=2023-12-07&guests=1) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/hotels-in-new-delhi?checkIn=2023-12-06&checkOut=2023-12-07&guests=1)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/list-of-couple-friendly-hotels-in-new-delhi?checkIn=2023-12-06&amp;checkOut=20...)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/list-of-couple-friendly-hotels-in-new-delhi?checkIn=2023-12-06&checkOut=20...) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/list-of-couple-friendly-hotels-in-new-delhi?checkIn=2023-12-06&checkOut=2023-12-07&guests=1)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/deals-and-offer)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/deals-and-offer) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/deals-and-offer)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/uiuiuiiuyad)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/uiuiuiiuyad) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/uiuiuiiuyad)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/uiuiuiiuyad/hihuiu)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/uiuiuiiuyad/hihuiu) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/uiuiuiiuyad/hihuiu)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/loyalty-program-a-list)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/loyalty-program-a-list) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/loyalty-program-a-list)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/corporate-enquiry)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/corporate-enquiry) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/corporate-enquiry)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/faqs/fab-credits)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/faqs/fab-credits) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/faqs/fab-credits)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/refer-and-earn)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/refer-and-earn) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/refer-and-earn)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/cancellation-refunds-policy)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/cancellation-refunds-policy) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/cancellation-refunds-policy)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/privacy-policy)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/privacy-policy) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/privacy-policy)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/deals/fab-payday-offer)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/deals/fab-payday-offer) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/deals/fab-payday-offer)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/brands/fabexpress?checkIn=2023-12-06&amp;checkOut=2023-12-07&amp;guests=1)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/brands/fabexpress?checkIn=2023-12-06&checkOut=2023-12-07&guests=1) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/brands/fabexpress?checkIn=2023-12-06&checkOut=2023-12-07&guests=1)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/terms-conditions/a-list)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/terms-conditions/a-list) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/terms-conditions/a-list)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/franchise-enquiry)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/franchise-enquiry) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/franchise-enquiry)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/hotels-near-me)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/hotels-near-me) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/hotels-near-me)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hitFabURL(https://www.fabhotels.com/contact-us)">
+                  </a> <!-- hitFabURL(https://www.fabhotels.com/contact-us) -->
+                  <span class="method-name">hitFabURL</span>
+                  <span class="parameters">(https://www.fabhotels.com/contact-us)</span>
+                  <em>
+(Fabhotels url's)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite_for_Flight-class-passed -->
+        </div> <!-- panel Test_Suite_for_Flight -->
+        <div panel-name="test-xml-Test_Suite_for_Flight" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/fabhotels/Downloads/FabHotels/Testng/faburl.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Test Suite for Flight&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Sanity Suite&quot;&gt;
+    &lt;parameter name=&quot;count1&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;type&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;env&quot; value=&quot;&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;web.B2C.Test.FabWebURLsHealthCheckup&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sanity Suite --&gt;
+&lt;/suite&gt; &lt;!-- Test Suite for Flight --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Suite_for_Flight" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Suite for Flight</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sanity Suite (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Suite_for_Flight" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Suite for Flight</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Suite_for_Flight" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Suite for Flight</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Suite_for_Flight');
+function tableData_Test_Suite_for_Flight() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'hitFabURL')
+data.setCell(0, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(0, 3, 1463);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'hitFabURL')
+data.setCell(1, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(1, 3, 1207);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'hitFabURL')
+data.setCell(2, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(2, 3, 1086);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'hitFabURL')
+data.setCell(3, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(3, 3, 844);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'hitFabURL')
+data.setCell(4, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(4, 3, 764);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'hitFabURL')
+data.setCell(5, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(5, 3, 574);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'hitFabURL')
+data.setCell(6, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(6, 3, 280);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'hitFabURL')
+data.setCell(7, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(7, 3, 239);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'hitFabURL')
+data.setCell(8, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(8, 3, 202);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'hitFabURL')
+data.setCell(9, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(9, 3, 186);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'hitFabURL')
+data.setCell(10, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(10, 3, 175);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'hitFabURL')
+data.setCell(11, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(11, 3, 166);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'hitFabURL')
+data.setCell(12, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(12, 3, 140);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'hitFabURL')
+data.setCell(13, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(13, 3, 110);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'hitFabURL')
+data.setCell(14, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(14, 3, 106);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'hitFabURL')
+data.setCell(15, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(15, 3, 100);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'hitFabURL')
+data.setCell(16, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(16, 3, 87);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'hitFabURL')
+data.setCell(17, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(17, 3, 57);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'hitFabURL')
+data.setCell(18, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(18, 3, 39);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'hitFabURL')
+data.setCell(19, 2, 'web.B2C.Test.FabWebURLsHealthCheckup')
+data.setCell(19, 3, 37);
+window.suiteTableData['Test_Suite_for_Flight']= { tableData: data, tableDiv: 'times-div-Test_Suite_for_Flight'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-Test_Suite_for_Flight">
+              </div> <!-- times-div-Test_Suite_for_Flight -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Suite_for_Flight" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Suite for Flight</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Suite_for_Flight" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Suite_for_Flight" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">web.B2C.Test.FabWebURLsHealthCheckup</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpResources</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">getDevices()</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">startClass</span>
+                <span class="method-start">56 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">420 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/)</span>
+                <span class="method-start">421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">1267 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">1452 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/search?city=New-Delhi&guests=1&checkIn=2023-12-06&checkOut=2023-12-07)</span>
+                <span class="method-start">1453 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">2540 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">2612 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/hotels-in-new-delhi?checkIn=2023-12-06&checkOut=2023-12-07&guests=1)</span>
+                <span class="method-start">2613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">4077 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">4127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/hotels-in-new-delhi/fabhotel-white-klove-paharganj.html?checkIn=2023-12-06...)</span>
+                <span class="method-start">4128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">4892 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">4937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/deals/fab-payday-offer)</span>
+                <span class="method-start">4937 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">5113 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/list-of-couple-friendly-hotels-in-new-delhi?checkIn=2023-12-06&checkOut=20...)</span>
+                <span class="method-start">5162 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">5162 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">6369 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">6411 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/brands/fabexpress?checkIn=2023-12-06&checkOut=2023-12-07&guests=1)</span>
+                <span class="method-start">6412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">6651 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/hotels-near-me)</span>
+                <span class="method-start">6703 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">6703 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">6843 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">6885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/refer-and-earn)</span>
+                <span class="method-start">6886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">7460 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">7494 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/deals-and-offer)</span>
+                <span class="method-start">7495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">7776 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">7820 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/contact-us)</span>
+                <span class="method-start">7820 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">7931 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">7964 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/cancellation-refunds-policy)</span>
+                <span class="method-start">7964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">8131 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">8170 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/privacy-policy)</span>
+                <span class="method-start">8171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">8228 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">8249 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/franchise-enquiry)</span>
+                <span class="method-start">8249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">8288 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">8320 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/terms-conditions/a-list)</span>
+                <span class="method-start">8321 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">8358 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">8378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/corporate-enquiry)</span>
+                <span class="method-start">8379 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">8479 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">8510 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/loyalty-program-a-list)</span>
+                <span class="method-start">8510 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">8696 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">8736 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/faqs/fab-credits)</span>
+                <span class="method-start">8737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">8843 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">8872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/uiuiuiiuyad)</span>
+                <span class="method-start">8873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">8960 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">8991 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hitFabURL(https://www.fabhotels.com/uiuiuiiuyad/hihuiu)</span>
+                <span class="method-start">8991 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">killMethod(, public static void web.B2C.Test.FabWebURLsHealthCheckup.hitFabURL(java.lang.String) throws java.la...)</span>
+                <span class="method-start">9193 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">createMenthodBody</span>
+                <span class="method-start">9229 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">killClass</span>
+                <span class="method-start">19195 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">killResources</span>
+                <span class="method-start">19219 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -59,7 +59,7 @@ public class TestUtilities extends Base {
         capabilities.setCapability("noReset", property.getProperty("noReset"));
         capabilities.setCapability("autoGrantPermissions", property.getProperty("autoGrantPermissions"));
         setLocator(System.getProperty("user.dir") + File.separator + "src" + File.separator + "test" + File.separator + "java" + File.separator + "mobile" + File.separator + property.getProperty("type") + File.separator + "configs", property.getProperty("platformName").toLowerCase() + "locators.xml");
-       //  startServer(capabilities);
+        //  startServer(capabilities);
         driver = DriverManager.setDriver(env, property.getProperty("platformName"), capabilities);
 
 

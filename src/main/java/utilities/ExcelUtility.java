@@ -55,6 +55,13 @@ public class ExcelUtility {
 
     }
 
+    @DataProvider(name = "B2C")
+    public Object[][] B2CHotelDate() {
+        Object[][] arrobj = getExcelData((System.getProperty("user.dir") + "//src//test//resources//DATA.xlsx"), "B2CHotelBookingData");
+        return arrobj;
+
+    }
+
 
     public Object[][] getExcelData(String fileName, String sheetName) {
 

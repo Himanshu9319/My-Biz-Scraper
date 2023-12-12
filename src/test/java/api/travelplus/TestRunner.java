@@ -15,7 +15,7 @@ import static utilities.Base.property;
 
 @CucumberOptions(
         features = "src/test/java/api/travelplus/tests/features",
-        tags = "@GDS",
+        tags = "@Search",
         glue = {"api.travelplus.tests"},
         plugin = {"html:testResults/travelplus-cucumber-report.html", "json:testResults/cucumber-report.json"}
 )

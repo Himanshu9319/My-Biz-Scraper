@@ -53,9 +53,9 @@ public class CustomListeners extends Base implements ITestListener {
         count_failedTCs = context.getFailedTests().size();
         count_passedTCs = context.getPassedTests().size();
         count_skippedTCs = context.getSkippedTests().size();
-        //count_totalTCs = context.getAllTestMethods();
-       // testLevelReport.get().log(Status.valueOf(), context.getName() + " Execution Finish");
-       // Email.sendEmail(0, count_passedTCs, count_failedTCs, count_skippedTCs);
+        count_totalTCs = context.getAllTestMethods().length;
+        //testLevelReport.get().log(Status.valueOf(), context.getName() + " Execution Finish");
+        Email.sendEmail(count_totalTCs, count_passedTCs, count_failedTCs, count_skippedTCs);
     }
 
 

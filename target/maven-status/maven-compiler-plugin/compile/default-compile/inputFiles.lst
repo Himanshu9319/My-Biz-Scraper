@@ -1,3 +1,4 @@
+/Users/fabhotels/Downloads/FabHotels/src/main/java/utilities/EmailAttachmentsSender.java
 /Users/fabhotels/Downloads/FabHotels/src/main/java/UtilsAPI/TravelPlus/responseDto/Initial/Data.java
 /Users/fabhotels/Downloads/FabHotels/src/main/java/UtilsAPI/trip/responsedto/search/TimeRange.java
 /Users/fabhotels/Downloads/FabHotels/src/main/java/UtilsAPI/trip/responsedto/search/Search.java
@@ -11,6 +12,7 @@
 /Users/fabhotels/Downloads/FabHotels/src/main/java/utilities/FindLocators.java
 /Users/fabhotels/Downloads/FabHotels/src/main/java/UtilsAPI/TravelPlus/responseDto/Search/ResultDisplay.java
 /Users/fabhotels/Downloads/FabHotels/src/main/java/utilities/MachineSearch.java
+/Users/fabhotels/Downloads/FabHotels/src/main/java/utilities/EmailConfig.java
 /Users/fabhotels/Downloads/FabHotels/src/main/java/UtilsAPI/TravelPlus/responseDto/Initial/CheckoutResponse.java
 /Users/fabhotels/Downloads/FabHotels/src/main/java/UtilsAPI/trip/requestdto/trip/Baggage.java
 /Users/fabhotels/Downloads/FabHotels/src/main/java/UtilsAPI/TravelPlus/requestDto/Airline.java
