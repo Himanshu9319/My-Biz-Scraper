@@ -16,7 +16,6 @@ cd automation
 
 2. Clone and Authenticate using
 
-git clone https://gitlab.com/blusmart/quality-assurance/blusmartwebautomationjava.git
 
 3. Run using
 
