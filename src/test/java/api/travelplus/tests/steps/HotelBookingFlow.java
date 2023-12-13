@@ -90,6 +90,7 @@ public class HotelBookingFlow {
         ratePlanId = response.jsonPath().get("data.roomTypeMeta[0].ratePlans[0].id");
         roomtypeid = response.jsonPath().get("data.roomTypeMeta[0].roomTypeId");
         ArrayList<Integer> occupancyList = new ArrayList<>();
+
         if (occupancy.length() == 1) {
             occupancyList.add(Integer.parseInt(occupancy));
             response = post_v2_hotelbooking(AccessToken.accessToken, dataTable, "", proerty_id, rate, Boolean.parseBoolean(currentGSTStatus), occupancyList, checkindate, checkout, searchid, paymentoption, ratePlanId, roomtypeid, guestType);
@@ -117,9 +118,13 @@ public class HotelBookingFlow {
 
     @When("Search api validation {string} {string} {string} {string} {string}")
     public void searchApiValidation(String city, String locality, String lattitude, String longitude, String occupancy) throws InterruptedException {
+        int totalresponsetime = 0;
+        int oneapitime = 0;
         ArrayList<Integer> list = new ArrayList<>();
+        ArrayList<Integer> apiresponsetime = new ArrayList<>();
         System.out.println(email);
         response = get_v2_search(AccessToken.accessToken, city, locality, checkindate, checkout, lattitude, longitude, "", "true", occupancy, "false", searchid, "false");
+        oneapitime = (int) (response.response().getTime());
         JSONObject jsonObject = new JSONObject(response.response().prettyPrint());
         JSONArray jsonarray = jsonObject.getJSONObject("data").getJSONArray("properties");
         Thread.sleep(1000);
@@ -127,12 +132,18 @@ public class HotelBookingFlow {
         while (response.jsonPath().get("data.allPropertiesFetched").equals(false) || response.jsonPath().get("data.nextPage").equals(true)) {
             if (response.jsonPath().get("data.nextPage").equals(true) && response.jsonPath().get("data.allPropertiesFetched").equals(false)) {
                 response = get_v2_search(AccessToken.accessToken, city, locality, checkindate, checkout, lattitude, longitude, "", "true", occupancy, "false", searchid, "false");
+                oneapitime=oneapitime+(int)(response.response().getTime());
                 continue;
             } else if (response.jsonPath().get("data.nextPage").equals(true) && response.jsonPath().get("data.allPropertiesFetched").equals(true)) {
                 response = get_v2_search(AccessToken.accessToken, city, locality, checkindate, checkout, lattitude, longitude, "", "true", occupancy, "false", searchid, "false");
+
             } else if (response.jsonPath().get("data.nextPage").equals(false) && response.jsonPath().get("data.allPropertiesFetched").equals(false)) {
                 response = get_v2_search(AccessToken.accessToken, city, locality, checkindate, checkout, lattitude, longitude, "", "true", occupancy, "false", searchid, "false");
+
             }
+            totalresponsetime = (int) (totalresponsetime + response.response().getTime());
+            apiresponsetime.add(oneapitime);
+
             //  response = get_v2_search(AccessToken.accessToken, city, locality, checkindate, checkout, lattitude, longitude, "", "true", occupancy, "false", searchid, "false");
             jsonObject = new JSONObject(response.response().prettyPrint());
             jsonarray = jsonObject.getJSONObject("data").getJSONArray("properties");
@@ -159,30 +170,35 @@ public class HotelBookingFlow {
         }
         System.out.println("-------------------------------" + sum);
         Collections.sort(list);
-        for (int i = 0; i < list.size(); i++) {
+        for (Integer integer : list) {
             if (email.equalsIgnoreCase("vikas.yadav@fabmailers.in")) {
-                writeDataOnCSVFile2(city,list.get(i), 0);
+                writeDataOnCSVFile2(city, integer, 0, totalresponsetime, oneapitime);
             } else if (email.equalsIgnoreCase("anuj.joshi+2@fabhotels.com")) {
-                writeDataOnCSVFile2(city,0, list.get(i));
+                writeDataOnCSVFile2(city, 0, integer, totalresponsetime, oneapitime);
+
             }
 
         }
     }
 
-    public static void writeDataOnCSVFile2(String cityname,int hotelId1, int hotelId2) {
+    public static void writeDataOnCSVFile2(String cityname, int hotelId1, int hotelId2, int totalresponsetime, int perapiresponsetime) {
         String filePath = "//Users//fabhotels//Downloads//FabHotels//src//test//resources//id's.csv";
 
         try (PrintWriter pw = new PrintWriter(new FileWriter(new File(filePath), true))) {
             // If the file does not exist, write the header
             if (new File(filePath).length() == 0) {
-                pw.append("Cityname,HotelId,hotelid2\r\n");
+                pw.append("Cityname,HotelId,hotelid2,TotalResponseTime\r\n");
             }
             // Write data to the file
-            pw.print(cityname);
+            pw.append(cityname);
             pw.print(",");
             pw.print(hotelId1);
             pw.print(",");
             pw.print(hotelId2);
+            pw.print(",");
+            pw.print(totalresponsetime);
+            pw.print(",");
+            pw.print(perapiresponsetime);
             pw.println();
             System.out.println("Data added successfully");
         } catch (IOException e) {
@@ -192,9 +208,9 @@ public class HotelBookingFlow {
 
 
     @When("User enter details for internation search {string} {string} {string} {string} {string} {string} {string}")
-    public void userEnterDetailsForInternationSearch(String city, String locality, String lattitude, String longitude,String occupancy, String CI, String CO) {
-        checkindate=CI;
-        checkout =CO;
-        response = get_v2_initiate_search(AccessToken.accessToken, checkindate, checkout, city, locality, lattitude, longitude,"",occupancy);
+    public void userEnterDetailsForInternationSearch(String city, String locality, String lattitude, String longitude, String occupancy, String CI, String CO) {
+        checkindate = CI;
+        checkout = CO;
+        response = get_v2_initiate_search(AccessToken.accessToken, checkindate, checkout, city, locality, lattitude, longitude, "", occupancy);
     }
 }

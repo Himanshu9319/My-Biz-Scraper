@@ -10,7 +10,7 @@ Feature: Hotel booking
     Examples:
       | emailID                   | otp    | httpStatusCode | message              |
      # | sudhir1.singh@fabhotels.com | 123456 | 200            | Login OTP validated. |
-      | vikas.yadav@fabhotels.com | 123456 | 200            | Login OTP validated. |
+      | vikas.yadav@fabmailers.in | 123456 | 200            | Login OTP validated. |
      #|sudhir.singh@fabhotels.com | 123456 | 200            | Login OTP validated. |
 
   @Hotel
@@ -57,7 +57,7 @@ Feature: Hotel booking
     When  Search api validation "<city>" "<locality>" "<latitude>" "<longitude>" "<occupancy>"
     Examples:
       | city            | locality        | latitude   | longitude  | message                | statuscode | paymentoption | guestType | occupancy | currentgststatus |
-      #| New Delhi | New Delhi | 19.0759837 | 72.8776559 | Hotel search initiated | 200        | WALLET        | INTERN    | 1         | false            |
+      | New Delhi | New Delhi | 19.0759837 | 72.8776559 | Hotel search initiated | 200        | WALLET        | INTERN    | 1         | false            |
 #      | Mumbai    | Mumbai    | 19.0759837 | 72.8776559 | Hotel search initiated | 200        | WALLET        | INTERN    | 1         | false            |
 #      | Bangalore | Bangalore | 19.0759837 | 72.8776559 | Hotel search initiated | 200        | BTC           | INTERN    | 1         | true             |
 #      | Goa       | Goa       | 19.0759837 | 72.8776559 | Hotel search initiated | 200        | BTC           | INTERN    | 1         | true             |
@@ -77,7 +77,7 @@ Feature: Hotel booking
 #      | Bhopal    | Bhopal    | 19.0759837 | 72.8776559 | Hotel search initiated | 200        | BTC           | INTERN    | 1         | true             |
 #      | Indore    | Indore    | 19.0759837 | 72.8776559 | Hotel search initiated | 200        | BTC           | INTERN    | 1         | true             |
 #      | Dehradun  | Dehradun  | 12.9715987 | 77.5945627 | Hotel search initiated | 200        | BTC           | INTERN    | 1         | true             |
-      | Maldive Islands | Maldive Islands | 12.9715987 | 77.5945627 | Hotel search initiated | 200        | BTC           | INTERN    | 1         | true             |
+     # | Maldive Islands | Maldive Islands | 12.9715987 | 77.5945627 | Hotel search initiated | 200        | BTC           | INTERN    | 1         | true             |
 
   @Agoda
   Scenario Outline: Search and book Hotel with minimum and maximum user for internation search
