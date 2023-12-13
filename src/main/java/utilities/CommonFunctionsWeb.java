@@ -329,4 +329,10 @@ public class CommonFunctionsWeb extends Base {
         }
     }
 
+    public static void scrollDown() throws InterruptedException {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,500)", "");
+        hardwait(2);
+    }
+
 }
