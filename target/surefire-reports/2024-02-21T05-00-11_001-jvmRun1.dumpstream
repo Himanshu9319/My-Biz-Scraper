@@ -1,0 +1,24 @@
+# Created at 2024-02-21T05:03:40.806
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '#'.
+
+# Created at 2024-02-21T05:03:40.807
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '# There is insufficient memory for the Java Runtime Environment to continue.'.
+
+# Created at 2024-02-21T05:03:40.807
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '# Native memory allocation (malloc) failed to allocate 564336 bytes for Chunk::new'.
+
+# Created at 2024-02-21T05:03:40.808
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '# An error report file with more information is saved as:'.
+
+# Created at 2024-02-21T05:03:40.813
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '# C:\Users\FabHotels\Downloads\FabHotels\FabHotels\hs_err_pid124832.log'.
+
+# Created at 2024-02-21T05:03:40.813
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '#'.
+
+# Created at 2024-02-21T05:03:40.813
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '# Compiler replay data is saved as:'.
+
+# Created at 2024-02-21T05:03:40.904
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '# C:\Users\FabHotels\Downloads\FabHotels\FabHotels\replay_pid124832.log'.
+

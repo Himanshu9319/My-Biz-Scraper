@@ -37,7 +37,7 @@ public class Email {
 
             try {
                 EmailAttachmentsSender.sendEmailWithAttachments(SERVER, PORT, FROM, PASSWORD, TO, SUBJECT, messageBody,
-                        "/Users/fabhotels/Downloads/FabHotels/testResults/extentReports/extentReport.html");
+                        System.getProperty("user.dir")+ "/testResults/extentReports/extentReport.html");
                 System.out.println("****************************************");
                 System.out.println("Email sent successfully.");
                 System.out.println("****************************************");

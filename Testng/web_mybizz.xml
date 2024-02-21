@@ -7,7 +7,11 @@
         <parameter name="env" value="${env}"/>
         <parameter name="count1" value="${count1}"/>
         <classes>
-            <class name="web.mybizz.tests.ExtractData"/>
+            <class name="web.mybizz.tests.ExtractData2">
+                <methods>
+                    <include name="hitUrlAndData"/>
+                </methods>
+            </class>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

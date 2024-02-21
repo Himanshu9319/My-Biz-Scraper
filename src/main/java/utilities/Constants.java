@@ -19,13 +19,16 @@ public class Constants {
     public static final String ARCHIVED_SCREENSHOT_PATH = "./testResults/screenshotArchived/";
     public static final String WINDOWS_WEB_DRIVER_CHROMEDRIVER = System.getProperty("user.dir") + "/src/test/resources/windows/chromedriver.exe";
     public static final String FLIGHT_BOOKING_API_EXPECTED_SCHEMA_PATH = "/src/main/java/UtilsAPI/TravelPlus/validator/";
+
+    public static final String B2C_SCHEMA = "/src/main/java/UtilsAPI/B2C/validator/";
+
     public static final String TRIP_CREATE_API_EXPECTED_SCHEMA_PATH="/src/main/java/UtilsAPI/trip/validator/";
     public static final String DRIVER_API_EXPECTED_SCHEMA_PATH = "/src/main/java/UtilsAPI/driver/Validator/";
     public static final String RIDER_API_EXPECTED_SCHEMA_PATH = "/src/main/java/UtilsAPI/rider/Validator/";
     public static final String HUB_API_EXPECTED_SCHEMA_PATH = USER_DIR + "/src/main/java/UtilsAPI/hub/validator/";
     public static String API_URI;
 
-    public static final String Project_Name = "Test Suite Report";
+    public static final String Project_Name = "My Biz Hotel data";
 
     public static void setAPI_URI(String env) {
         Properties properties = TestUtilities.addConfigProperties(env);

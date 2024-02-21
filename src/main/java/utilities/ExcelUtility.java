@@ -1,6 +1,7 @@
 package utilities;
 
 import java.io.FileInputStream;
+import java.util.ArrayList;
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
@@ -10,58 +11,25 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
 
+import static utilities.EmailConfig.*;
+import static utilities.EmailConfig.SUBJECT;
+
 public class ExcelUtility {
 
-    @DataProvider(name = "excel-data")
-    public Object[][] excelDP() {
-        Object[][] arrobj = getExcelData((System.getProperty("user.dir") + "//src//test//resources//DATA.xlsx"), "Sheet1");
-        return arrobj;
 
-    }
-
-    @DataProvider(name = "Flight")
-    public Object[][] excelValidDP() {
-        Object[][] arrobj = getExcelData((System.getProperty("user.dir") + "//src//test//resources//DATA.xlsx"), "FlightEmployeeData");
-        return arrobj;
-
-    }
-
-    @DataProvider(name = "International search")
-    public Object[][] dataforinternationalsearch() {
-        Object[][] arrobj = getExcelData((System.getProperty("user.dir") + "//src//test//resources//DATA.xlsx"), "DataForInternationHotel");
-        return arrobj;
-
-    }
-
-    @DataProvider(name = "MyBizzUrl")
+    @DataProvider(name = "MyBizzUrl", parallel = true)
     public Object[][] myBizzUrl() {
-        Object[][] arrobj = getExcelData((System.getProperty("user.dir") + "//src//test//resources//Links for Scraping.xlsx"), "Sheet1");
+        Object[][] arrobj = getExcelData((System.getProperty("user.dir") + "//src//test//resources//Links for Scraping.xlsx"), "1167");
         return arrobj;
 
     }
 
-    //DataWithHotelName
-    @DataProvider(name = "Internationa Hotel book with hotelname")
-    public Object[][] hotelName() {
-        Object[][] arrobj = getExcelData((System.getProperty("user.dir") + "//src//test//resources//DATA.xlsx"), "DataWithHotelName");
+    @DataProvider(name = "Auto fetched sheet")
+    public Object[][] sheetname() {
+        Object[][] arrobj = getExcelData((System.getProperty("user.dir") + "//src//test//resources//Sheetname.xlsx"), "Price Comparison Set3");
         return arrobj;
 
     }
-
-    @DataProvider(name = "FBWebURL")
-    public Object[][] FabHotelsWebURLs() {
-        Object[][] arrobj = getExcelData((System.getProperty("user.dir") + "//src//test//resources//FBURL.xlsx"), "Sheet1");
-        return arrobj;
-
-    }
-
-    @DataProvider(name = "B2C")
-    public Object[][] B2CHotelDate() {
-        Object[][] arrobj = getExcelData((System.getProperty("user.dir") + "//src//test//resources//DATA.xlsx"), "B2CHotelBookingData");
-        return arrobj;
-
-    }
-
 
     public Object[][] getExcelData(String fileName, String sheetName) {
 

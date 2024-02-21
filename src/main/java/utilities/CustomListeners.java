@@ -41,7 +41,7 @@ public class CustomListeners extends Base implements ITestListener {
     public void onTestSkipped(ITestResult result) {
         // TODO Auto-generated method stub
 
-//        testLevelReport.get().debug(result.getMethod().getMethodName().toUpperCase() + " " + result.getMethod().getDescription() + " isSkipped");
+        //testLevelReport.get().debug(result.getMethod().getMethodName().toUpperCase() + " " + result.getMethod().getDescription() + " isSkipped");
         testLevelReport.get().debug(result.getMethod().getDescription() + " isSkipped");
         testLevelReport.get().log(Status.SKIP, "SKIPPED");
 

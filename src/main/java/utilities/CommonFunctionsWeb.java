@@ -3,15 +3,13 @@ package utilities;
 import com.aventstack.extentreports.Status;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.interactions.SourceType;
 import org.openqa.selenium.support.ui.*;
 import org.testng.Assert;
 
 import java.time.Duration;
 import java.util.List;
 import java.util.Set;
-import java.util.SortedSet;
-import java.util.concurrent.TimeUnit;
+
 
 public class CommonFunctionsWeb extends Base {
     public static void openURL() throws InterruptedException {
@@ -26,9 +24,9 @@ public class CommonFunctionsWeb extends Base {
             testLevelReport.get().log(Status.PASS, "Able to launch URL");
             testLevelReport.get().log(Status.INFO, url);
         } catch (Exception e) {
-            testLevelReport.get().log(Status.FAIL, "Unable to launch URL for : " + "Travelplus");
+            testLevelReport.get().log(Status.FAIL, "Unable to launch URL for : " + "TravelPlus");
             testLevelReport.get().log(Status.DEBUG, e);
-            Assert.fail("Unable to launch URL for : " + "Travelplus");
+            Assert.fail("Unable to launch URL for : " + "TravelPlus");
 
         }
     }
@@ -334,5 +332,4 @@ public class CommonFunctionsWeb extends Base {
         js.executeScript("window.scrollBy(0,500)", "");
         hardwait(2);
     }
-
 }
