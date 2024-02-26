@@ -149,7 +149,7 @@ public class ExtractData3 {
     public void createMenthodBody() throws MessagingException {
         // Create object to add multimedia type content
         sendEmailWithAttachments(SERVER, PORT, FROM, PASSWORD, TO, SUBJECT, "",
-                System.getProperty("user.dir") + "//src//test//resources//mybiz.csv");
+                System.getProperty("user.dir") + "//src//test//resources//roomtype.csv");
     }
 
     // @AfterSuite
