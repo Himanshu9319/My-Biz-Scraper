@@ -508,20 +508,66 @@ public class ExtractData2 {
                 sendEmailWithAttachments(SERVER, PORT, FROM, PASSWORD, TO, SUBJECT, "", csvFilePath);
                 System.out.println("Maild is triggered");
                 Thread.sleep(10000);
+                System.gc();
             } else if (rowCount == 600) {
                 sendEmailWithAttachments(SERVER, PORT, FROM, PASSWORD, TO, SUBJECT, "", csvFilePath);
                 System.out.println("Maild is triggered");
                 Thread.sleep(10000);
+                System.gc();
             } else if (rowCount == 900) {
                 sendEmailWithAttachments(SERVER, PORT, FROM, PASSWORD, TO, SUBJECT, "", csvFilePath);
                 System.out.println("Maild is triggered");
                 Thread.sleep(10000);
+                System.gc();
             }
-//            else if (rowCount == 1167) {
-//                sendEmailWithAttachments(SERVER, PORT, FROM, PASSWORD, TO, SUBJECT, "", csvFilePath);
-//                System.out.println("Maild is triggered");
-//                Thread.sleep(10000);
-//            }
+            else if (rowCount == 1200) {
+                sendEmailWithAttachments(SERVER, PORT, FROM, PASSWORD, TO, SUBJECT, "", csvFilePath);
+                System.out.println("Maild is triggered");
+                Thread.sleep(10000);
+                System.gc();
+            }
+            else if (rowCount == 1500) {
+                sendEmailWithAttachments(SERVER, PORT, FROM, PASSWORD, TO, SUBJECT, "", csvFilePath);
+                System.out.println("Maild is triggered");
+                Thread.sleep(10000);
+                System.gc();
+            }
+            else if (rowCount == 1800) {
+                sendEmailWithAttachments(SERVER, PORT, FROM, PASSWORD, TO, SUBJECT, "", csvFilePath);
+                System.out.println("Maild is triggered");
+                Thread.sleep(10000);
+                System.gc();
+            }
+            else if (rowCount == 2100) {
+                sendEmailWithAttachments(SERVER, PORT, FROM, PASSWORD, TO, SUBJECT, "", csvFilePath);
+                System.out.println("Maild is triggered");
+                Thread.sleep(10000);
+                System.gc();
+            }
+            else if (rowCount == 2400) {
+                sendEmailWithAttachments(SERVER, PORT, FROM, PASSWORD, TO, SUBJECT, "", csvFilePath);
+                System.out.println("Maild is triggered");
+                Thread.sleep(10000);
+                System.gc();
+            }
+            else if (rowCount == 2700) {
+                sendEmailWithAttachments(SERVER, PORT, FROM, PASSWORD, TO, SUBJECT, "", csvFilePath);
+                System.out.println("Maild is triggered");
+                Thread.sleep(10000);
+                System.gc();
+            }
+            else if (rowCount == 3000) {
+                sendEmailWithAttachments(SERVER, PORT, FROM, PASSWORD, TO, SUBJECT, "", csvFilePath);
+                System.out.println("Maild is triggered");
+                Thread.sleep(10000);
+                System.gc();
+            }
+            else if (rowCount == 3300) {
+                sendEmailWithAttachments(SERVER, PORT, FROM, PASSWORD, TO, SUBJECT, "", csvFilePath);
+                System.out.println("Maild is triggered");
+                Thread.sleep(10000);
+                System.gc();
+            }
             // Check every 5 minutes (adjust as needed)
             //Thread.sleep(5 * 60 * 1000); // Sleep for 5 minutes
         } catch (Exception e) {

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Suite for My bizz]">
+  <test thread-count="5" verbose="0" name="Sanity Suite(failed)">
+    <parameter name="count1" value=""/>
+    <parameter name="platformName" value=""/>
+    <parameter name="type" value=""/>
+    <parameter name="env" value=""/>
+    <classes>
+      <class name="web.mybizz.tests.ExtractData2">
+        <methods>
+          <include name="createMenthodBody"/>
+          <include name="sendMailAfter300url"/>
+          <include name="setupClassName"/>
+          <include name="hitUrlAndData" invocation-numbers="1342 1358 2027 2540 3075 3214"/>
+          <include name="setupClass"/>
+        </methods>
+      </class> <!-- web.mybizz.tests.ExtractData2 -->
+    </classes>
+  </test> <!-- Sanity Suite(failed) -->
+</suite> <!-- Failed suite [Test Suite for My bizz] -->

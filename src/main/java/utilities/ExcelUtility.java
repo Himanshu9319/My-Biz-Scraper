@@ -19,17 +19,17 @@ public class ExcelUtility {
 
     @DataProvider(name = "MyBizzUrl", parallel = true)
     public Object[][] myBizzUrl() {
-        Object[][] arrobj = getExcelData((System.getProperty("user.dir") + "//src//test//resources//Links for Scraping.xlsx"), "1167");
+        Object[][] arrobj = getExcelData((System.getProperty("user.dir") + "//src//test//resources//input.xlsx"), "3500");
         return arrobj;
 
     }
 
-    @DataProvider(name = "Auto fetched sheet")
-    public Object[][] sheetname() {
-        Object[][] arrobj = getExcelData((System.getProperty("user.dir") + "//src//test//resources//Sheetname.xlsx"), "Price Comparison Set3");
-        return arrobj;
-
-    }
+//    @DataProvider(name = "Auto fetched sheet")
+//    public Object[][] sheetname() {
+//        Object[][] arrobj = getExcelData((System.getProperty("user.dir") + "//src//test//resources//Sheetname.xlsx"), "Price Comparison Set3");
+//        return arrobj;
+//
+//    }
 
     public Object[][] getExcelData(String fileName, String sheetName) {
 
